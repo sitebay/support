@@ -1,3 +1,141 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [
   {
     "authors": [],
@@ -10,7 +148,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/getting-started/",
-    "isBranch": false,
     "keywords": [
       "getting started",
       "intro",
@@ -47,7 +184,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/quick-answers/",
-    "isBranch": true,
     "keywords": [
       "quick answers",
       "linux",
@@ -83,7 +219,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/websites/",
-    "isBranch": true,
     "keywords": [
       "web applications",
       "wikis",
@@ -126,7 +261,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/security/",
-    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -158,7 +292,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/development/",
-    "isBranch": true,
     "keywords": [
       "development",
       "vscode",
@@ -196,7 +329,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/",
-    "isBranch": true,
     "keywords": [
       "development",
       "vscode",
@@ -234,7 +366,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/troubleshooting/",
-    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -266,7 +397,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/recovering-from-a-wordpress-hack/",
-    "isBranch": false,
     "keywords": [
       "root compromise",
       "troubleshooting",
@@ -309,7 +439,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/sitebay-recordings-page/",
-    "isBranch": false,
     "keywords": [
       "sitebay",
       "maintenance",
@@ -351,7 +480,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/sitebay-status-page/",
-    "isBranch": false,
     "keywords": [
       "sitebay",
       "maintenance",
@@ -393,7 +521,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/set-up-subdomain-or-subdirectory-wordpress/",
-    "isBranch": false,
     "keywords": [
       "hosting a website",
       "website",
@@ -434,7 +561,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/fix-dns-probe-finished-nxdomain/",
-    "isBranch": false,
     "keywords": [
       "server",
       "error"
@@ -473,7 +599,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/accounts-and-passwords/",
-    "isBranch": false,
     "keywords": [
       "accounts",
       "passwords",
@@ -514,7 +639,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/getting-started-with-the-sitebay-api/",
-    "isBranch": false,
     "keywords": [
       "sitebay api",
       "access token"
@@ -553,7 +677,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/time-machine-api/",
-    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -586,7 +709,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/get-started-with-pit-machine/",
-    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -619,7 +741,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/",
-    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -651,7 +772,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/resources/",
-    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -684,7 +804,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/tutorials/take-a-blueprint/",
-    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -718,7 +837,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/tutorials/",
-    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -751,7 +869,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/beginners-guide-to-wordpress/",
-    "isBranch": false,
     "keywords": [
       "wordpress",
       "help",
@@ -792,7 +909,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/beginners-guide-to-wordpress-2/",
-    "isBranch": false,
     "keywords": [
       "wordpress",
       "help",
@@ -833,7 +949,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-use-sitebay-templates/",
-    "isBranch": false,
     "keywords": [
       "one click",
       "templates"
@@ -873,7 +988,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/dns-manager/tutorials/add-dns-records/",
-    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -907,7 +1021,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/dns-manager/",
-    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -939,7 +1052,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/dns-manager/tutorials/edit-dns-records/",
-    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -973,7 +1085,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/dns-manager/tutorials/transfer-domain-zones/",
-    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -1007,7 +1118,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/dns-manager/tutorials/",
-    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -1040,7 +1150,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/billing-and-payments/",
-    "isBranch": false,
     "keywords": [
       "billing",
       "payments",
@@ -1080,7 +1189,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/best-ide-wordpress/",
-    "isBranch": false,
     "keywords": [
       "development",
       "ide",
@@ -1121,7 +1229,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/best-ide-wordpress/",
-    "isBranch": false,
     "keywords": [
       "development",
       "ide",
@@ -1162,7 +1269,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/template-quickstart-photography-portfolio/",
-    "isBranch": false,
     "keywords": [
       "template",
       "photography",
@@ -1203,7 +1309,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/support/",
-    "isBranch": false,
     "keywords": [
       "support",
       "tech support",
@@ -1244,7 +1349,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/securing-your-wordpress/",
-    "isBranch": false,
     "keywords": [
       "security",
       "secure",
@@ -1286,7 +1390,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/tax-information/",
-    "isBranch": false,
     "keywords": [
       "accounts",
       "vat",
@@ -1337,7 +1440,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/api/",
-    "isBranch": true,
     "keywords": [
       "sitebay api",
       " api key",
@@ -1374,7 +1476,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-sitebay-billing-works/",
-    "isBranch": false,
     "keywords": [
       "billing",
       "payments"
@@ -1413,7 +1514,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/sitebay-writers-formatting-tutorial/",
-    "isBranch": false,
     "keywords": [
       "style tutorial",
       "format",
@@ -1454,7 +1554,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/wordpress-logging-and-monitoring/",
-    "isBranch": false,
     "keywords": [
       "wordpress monitoring tools",
       "nginx logs"
@@ -1494,7 +1593,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/get-started/",
-    "isBranch": true,
     "keywords": [
       "sitebay platform"
     ],
@@ -1531,7 +1629,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/websites/fundamentals/",
-    "isBranch": true,
     "keywords": [
       "website hosting",
       "high availability"
@@ -1567,7 +1664,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/security/monitoring/",
-    "isBranch": true,
     "keywords": [
       "wordpress security monitoring",
       "intrusion detection"
@@ -1603,7 +1699,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/security/recovery/",
-    "isBranch": true,
     "keywords": [
       "linux system recovery",
       "system compromise recovery"
@@ -1639,7 +1734,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/development/tips-and-tricks/",
-    "isBranch": true,
     "keywords": [
       "mobile web development",
       "programming on ipad"
@@ -1675,7 +1769,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/beginners-tutorial-to-php-wordpress-developers/",
-    "isBranch": false,
     "keywords": [
       "php",
       "wordpress",
@@ -1713,7 +1806,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-compress-wordpress-site-to-zip/",
-    "isBranch": false,
     "keywords": [
       "migration",
       "wordpress"
@@ -1753,7 +1845,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-migrate-your-site/",
-    "isBranch": false,
     "keywords": [
       "migration",
       "wordpress"
@@ -1793,7 +1884,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-migrate-your-site/",
-    "isBranch": false,
     "keywords": [
       "migration",
       "wordpress"
@@ -1833,7 +1923,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/wordpress/",
-    "isBranch": true,
     "keywords": [
       "wordpress"
     ],
@@ -1867,7 +1956,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/git-sync/",
-    "isBranch": true,
     "keywords": [
       "git-sync"
     ],
@@ -1902,7 +1990,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-git-sync-works-with-point-in-time-machine/",
-    "isBranch": false,
     "keywords": [
       "git-sync",
       "pit-machine"
@@ -1943,7 +2030,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-git-sync-works-with-point-in-time-machine/",
-    "isBranch": false,
     "keywords": [
       "git-sync",
       "pit-machine"
@@ -1984,7 +2070,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-use-sitebay-git-sync/",
-    "isBranch": false,
     "keywords": [
       "git-sync"
     ],
@@ -2024,7 +2109,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-use-sitebay-git-sync/",
-    "isBranch": false,
     "keywords": [
       "git-sync"
     ],
@@ -2064,7 +2148,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/shopify/",
-    "isBranch": true,
     "keywords": [
       "git-sync"
     ],
@@ -2099,7 +2182,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/templates/",
-    "isBranch": true,
     "keywords": [
       "templates"
     ],
@@ -2134,7 +2216,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-choose-a-sitebay-plan/",
-    "isBranch": false,
     "keywords": [
       "choose",
       "help",
@@ -2175,7 +2256,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-pick-a-data-center/",
-    "isBranch": false,
     "keywords": [
       "data center",
       "datacenter",
@@ -2215,7 +2295,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/outgoing-bandwidth/",
-    "isBranch": false,
     "keywords": [
       "network",
       "billing",
@@ -2257,7 +2336,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/migrate-a-wordpressdotcom-site-to-sitebay/",
-    "isBranch": false,
     "keywords": [
       "wordpress",
       "wordpress.com",
@@ -2299,7 +2377,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/best-practices-when-migrating-to-sitebay/",
-    "isBranch": false,
     "keywords": [
       "migrate",
       "wordpress migration"
@@ -2338,7 +2415,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/migrate-a-lamp-website-to-sitebay/",
-    "isBranch": false,
     "keywords": [
       "lamp",
       "migrate",
@@ -2379,7 +2455,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/disaster-recovery-tutorial/",
-    "isBranch": false,
     "keywords": [
       "upgrade",
       "wordpress",
@@ -2418,7 +2493,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/development/php/",
-    "isBranch": true,
     "keywords": [
       "development",
       "php"
@@ -2454,7 +2528,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/search/",
-    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -2486,7 +2559,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/advanced-wordpress-development-techniques/",
-    "isBranch": false,
     "keywords": [
       "docker",
       "container",
@@ -2532,7 +2604,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/wordpress-development-on-remote-devices/",
-    "isBranch": false,
     "keywords": [
       "docker",
       "container",
@@ -2578,7 +2649,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/quick-answers/sitebay-platform/",
-    "isBranch": true,
     "keywords": [
       "sitebay faq",
       "sitebay platform"
@@ -2614,7 +2684,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/what-is-high-availability/",
-    "isBranch": false,
     "keywords": [
       "high availability",
       "hosting",
@@ -2654,7 +2723,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/sitebay-beginners-tutorial/",
-    "isBranch": false,
     "keywords": [
       "sitebay beginners tutorial",
       "sitebay beginner",
@@ -2694,7 +2762,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/billing-and-support/",
-    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -2727,7 +2794,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/templates/developers/",
-    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -2760,7 +2826,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/templates/get-started-with-templates/",
-    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -2793,7 +2858,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-start-a-web-design-agency/",
-    "isBranch": false,
     "keywords": [
       "agency",
       "sitebay",
@@ -2834,7 +2898,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/migrate-to-sitebay/",
-    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -2867,7 +2930,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/monitoring/",
-    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -2900,7 +2962,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/recording/",
-    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -2933,7 +2994,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/templates/resources/",
-    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -2966,7 +3026,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/templates/",
-    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
@@ -2998,7 +3057,6 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/security/basics/",
-    "isBranch": true,
     "keywords": [
       "wordpress security\""
     ],

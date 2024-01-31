@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Site Bay Platform on Site Bay Tutorials</title>
-    <link>https://support.sitebay.org/support/tutorials/quick-answers/sitebay-platform/</link>
+    <link>https://www.sitebay.org/support/tutorials/quick-answers/sitebay-platform/</link>
     <description>Recent content in Site Bay Platform on Site Bay Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 08 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://support.sitebay.org/support/tutorials/quick-answers/sitebay-platform/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/support/tutorials/quick-answers/sitebay-platform/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Migrate your WordPress site</title>
-      <link>https://support.sitebay.org/support/tutorials/how-to-compress-wordpress-site-to-zip/</link>
+      <link>https://www.sitebay.org/support/tutorials/how-to-compress-wordpress-site-to-zip/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/tutorials/how-to-compress-wordpress-site-to-zip/</guid>
+      <guid>https://www.sitebay.org/support/tutorials/how-to-compress-wordpress-site-to-zip/</guid>
       <description>Zipping your site&amp;rsquo;s wp-content folderTo compress a WordPress site to a ZIP file, you can use a plugin such as WP-Optimize or WP-Sweep.</description>
     </item>
     
     <item>
       <title>How to Migrate your WordPress site</title>
-      <link>https://support.sitebay.org/support/tutorials/how-to-migrate-your-site/</link>
+      <link>https://www.sitebay.org/support/tutorials/how-to-migrate-your-site/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/tutorials/how-to-migrate-your-site/</guid>
+      <guid>https://www.sitebay.org/support/tutorials/how-to-migrate-your-site/</guid>
       <description>Introducing a new tool that allows you to reverse proxy a Shopify store to a directory on your WordPress site:</description>
     </item>
     
     <item>
       <title>How to Migrate your WordPress site</title>
-      <link>https://support.sitebay.org/support/tutorials/how-to-migrate-your-site/</link>
+      <link>https://www.sitebay.org/support/tutorials/how-to-migrate-your-site/</link>
       <pubDate>Mon, 20 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/tutorials/how-to-migrate-your-site/</guid>
+      <guid>https://www.sitebay.org/support/tutorials/how-to-migrate-your-site/</guid>
       <description>Migrating your siteTo migrate your site to Site Bay, follow these steps:
 Sign up for a Site Bay account and create a new site.</description>
     </item>

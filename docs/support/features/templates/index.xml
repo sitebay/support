@@ -2,35 +2,35 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Templates on Site Bay Tutorials</title>
-    <link>https://support.sitebay.org/support/features/templates/</link>
+    <link>https://www.sitebay.org/support/features/templates/</link>
     <description>Recent content in Templates on Site Bay Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://support.sitebay.org/support/features/templates/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.sitebay.org/support/features/templates/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developers</title>
-      <link>https://support.sitebay.org/support/features/templates/developers/</link>
+      <link>https://www.sitebay.org/support/features/templates/developers/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/features/templates/developers/</guid>
+      <guid>https://www.sitebay.org/support/features/templates/developers/</guid>
       <description>In a world of endless code and endless servers, One platform rises above the rest: Site Bay.</description>
     </item>
     
     <item>
       <title>Get Started</title>
-      <link>https://support.sitebay.org/support/features/templates/get-started-with-templates/</link>
+      <link>https://www.sitebay.org/support/features/templates/get-started-with-templates/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/features/templates/get-started-with-templates/</guid>
+      <guid>https://www.sitebay.org/support/features/templates/get-started-with-templates/</guid>
       <description>Creating a new site with a template:
 Pick a template in the My Site Bay Templates section.</description>
     </item>
     
     <item>
       <title>Resources</title>
-      <link>https://support.sitebay.org/support/features/templates/resources/</link>
+      <link>https://www.sitebay.org/support/features/templates/resources/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/features/templates/resources/</guid>
+      <guid>https://www.sitebay.org/support/features/templates/resources/</guid>
       <description>If you&amp;rsquo;re interested in using WordPress with our Kubernetes based hosting platform, there are many resources available to help you get started.</description>
     </item>
     

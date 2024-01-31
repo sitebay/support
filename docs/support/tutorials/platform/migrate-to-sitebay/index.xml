@@ -2,34 +2,34 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Migrate to Site Bay on Site Bay Tutorials</title>
-    <link>https://support.sitebay.org/support/tutorials/platform/migrate-to-sitebay/</link>
+    <link>https://www.sitebay.org/support/tutorials/platform/migrate-to-sitebay/</link>
     <description>Recent content in Migrate to Site Bay on Site Bay Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://support.sitebay.org/support/tutorials/platform/migrate-to-sitebay/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.sitebay.org/support/tutorials/platform/migrate-to-sitebay/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Migrate a WordPress.com Website to Site Bay</title>
-      <link>https://support.sitebay.org/support/tutorials/migrate-a-wordpressdotcom-site-to-sitebay/</link>
+      <link>https://www.sitebay.org/support/tutorials/migrate-a-wordpressdotcom-site-to-sitebay/</link>
       <pubDate>Tue, 07 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/tutorials/migrate-a-wordpressdotcom-site-to-sitebay/</guid>
+      <guid>https://www.sitebay.org/support/tutorials/migrate-a-wordpressdotcom-site-to-sitebay/</guid>
       <description>This tutorial describes how to export your content from WordPress.com and host your WordPress website on Site Bay.</description>
     </item>
     
     <item>
       <title>Best Practices when Migrating to Site Bay</title>
-      <link>https://support.sitebay.org/support/tutorials/best-practices-when-migrating-to-sitebay/</link>
+      <link>https://www.sitebay.org/support/tutorials/best-practices-when-migrating-to-sitebay/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/tutorials/best-practices-when-migrating-to-sitebay/</guid>
+      <guid>https://www.sitebay.org/support/tutorials/best-practices-when-migrating-to-sitebay/</guid>
       <description>Next StepsAfter doing the above, your site should be fully migrated to Site Bay. It is a good idea to wait a few days before cancelling your previous WordPress hosting service to make sure that everything is running smoothly.</description>
     </item>
     
     <item>
       <title>How to Migrate a LAMP Website to Site Bay</title>
-      <link>https://support.sitebay.org/support/tutorials/migrate-a-lamp-website-to-sitebay/</link>
+      <link>https://www.sitebay.org/support/tutorials/migrate-a-lamp-website-to-sitebay/</link>
       <pubDate>Tue, 31 Jul 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/tutorials/migrate-a-lamp-website-to-sitebay/</guid>
+      <guid>https://www.sitebay.org/support/tutorials/migrate-a-lamp-website-to-sitebay/</guid>
       <description>This tutorial describes how to migrate a website running in a LAMP environment on another host to Site Bay.</description>
     </item>
     

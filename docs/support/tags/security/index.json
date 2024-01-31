@@ -1,38 +1,38 @@
 [
   {
     "excerpt": "Learn to monitor and log your visitors",
-    "href": "https://support.sitebay.org/support/tutorials/wordpress-logging-and-monitoring/",
+    "href": "https://www.sitebay.org/support/tutorials/wordpress-logging-and-monitoring/",
     "lastModified": "2024-01-31T03:28:10-07:00",
     "linkTitle": "WordPress Logging and Monitoring",
     "publishDate": "2020-10-29T00:00:00Z",
-    "thumbnail": "https://support.sitebay.org/support/tutorials/wordpress-logging-and-monitoring/wordpress-logging-and-monitoring_hua1bb0e9885025574782e7b663b124f53_226786_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "thumbnail": "https://www.sitebay.org/support/tutorials/wordpress-logging-and-monitoring/wordpress-logging-and-monitoring_hua1bb0e9885025574782e7b663b124f53_226786_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "WordPress Logging and Monitoring"
   },
   {
     "excerpt": "This tutorial covers basic best practices for securing a featureion server, including setting up user accounts, configuring a firewall, securing SSH, and disabling unused network services such as XMLRPC.",
-    "href": "https://support.sitebay.org/support/tutorials/securing-your-wordpress/",
+    "href": "https://www.sitebay.org/support/tutorials/securing-your-wordpress/",
     "lastModified": "2024-01-31T03:28:10-07:00",
     "linkTitle": "How to Secure Your WordPress",
     "publishDate": "2021-02-17T00:00:00Z",
-    "thumbnail": "https://support.sitebay.org/support/images/placeholder_hu53d5c019f2106d16997656c3638d5768_274585_640x0_resize_q75_catmullrom.jpg",
+    "thumbnail": "https://www.sitebay.org/support/images/placeholder_hu53d5c019f2106d16997656c3638d5768_274585_640x0_resize_q75_catmullrom.jpg",
     "title": "How to Secure Your WordPress"
   },
   {
     "excerpt": "Our tutorial to managing accounts and passwords.",
-    "href": "https://support.sitebay.org/support/tutorials/accounts-and-passwords/",
+    "href": "https://www.sitebay.org/support/tutorials/accounts-and-passwords/",
     "lastModified": "2024-01-31T03:28:10-07:00",
     "linkTitle": "Accounts and Passwords",
     "publishDate": "2021-04-03T00:00:00Z",
-    "thumbnail": "https://support.sitebay.org/support/images/placeholder_hu53d5c019f2106d16997656c3638d5768_274585_640x0_resize_q75_catmullrom.jpg",
+    "thumbnail": "https://www.sitebay.org/support/images/placeholder_hu53d5c019f2106d16997656c3638d5768_274585_640x0_resize_q75_catmullrom.jpg",
     "title": "Accounts and Passwords"
   },
   {
     "excerpt": "This tutorial outlines steps to protect your data and recover your system in the event of a suspected system compromise.",
-    "href": "https://support.sitebay.org/support/tutorials/recovering-from-a-wordpress-hack/",
+    "href": "https://www.sitebay.org/support/tutorials/recovering-from-a-wordpress-hack/",
     "lastModified": "2024-01-31T03:28:10-07:00",
     "linkTitle": "Recovering from a WordPress Hack",
     "publishDate": "2021-08-26T00:00:00Z",
-    "thumbnail": "https://support.sitebay.org/support/tutorials/recovering-from-a-wordpress-hack/recovering-from-system-compromise-title_hu49c03114a9ce8ad2bc0bd62c0ddb3f2a_195031_640x0_resize_q75_catmullrom.jpg",
+    "thumbnail": "https://www.sitebay.org/support/tutorials/recovering-from-a-wordpress-hack/recovering-from-system-compromise-title_hu49c03114a9ce8ad2bc0bd62c0ddb3f2a_195031_640x0_resize_q75_catmullrom.jpg",
     "title": "Recovering from a WordPress Hack"
   }
 ]

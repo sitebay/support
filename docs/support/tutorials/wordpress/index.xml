@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WordPress on Site Bay Tutorials</title>
-    <link>https://support.sitebay.org/support/tutorials/wordpress/</link>
+    <link>https://www.sitebay.org/support/tutorials/wordpress/</link>
     <description>Recent content in WordPress on Site Bay Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://support.sitebay.org/support/tutorials/wordpress/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Jul 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/support/tutorials/wordpress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Beginner&#39;s Tutorial to WordPress</title>
-      <link>https://support.sitebay.org/support/tutorials/beginners-guide-to-wordpress/</link>
+      <link>https://www.sitebay.org/support/tutorials/beginners-guide-to-wordpress/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/tutorials/beginners-guide-to-wordpress/</guid>
+      <guid>https://www.sitebay.org/support/tutorials/beginners-guide-to-wordpress/</guid>
       <description>WordPress, often referred to as WP is a free and open source content management system (CMS) written in PHP and paired with a database (MariaDB), used by more than 40.</description>
     </item>
     
     <item>
       <title>A Beginner&#39;s Tutorial to WordPress Part 2</title>
-      <link>https://support.sitebay.org/support/tutorials/beginners-guide-to-wordpress-2/</link>
+      <link>https://www.sitebay.org/support/tutorials/beginners-guide-to-wordpress-2/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/tutorials/beginners-guide-to-wordpress-2/</guid>
+      <guid>https://www.sitebay.org/support/tutorials/beginners-guide-to-wordpress-2/</guid>
       <description>Advanced WordPress TutorialIn this tutorial, we will cover some advanced features and techniques that you can use to customize and optimize your WordPress site.</description>
     </item>
     

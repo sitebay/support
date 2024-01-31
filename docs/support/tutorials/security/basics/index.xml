@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WordPress Security Basics on Site Bay Tutorials</title>
-    <link>https://support.sitebay.org/support/tutorials/security/basics/</link>
+    <link>https://www.sitebay.org/support/tutorials/security/basics/</link>
     <description>Recent content in WordPress Security Basics on Site Bay Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://support.sitebay.org/support/tutorials/security/basics/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.sitebay.org/support/tutorials/security/basics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How to Secure Your WordPress</title>
-      <link>https://support.sitebay.org/support/tutorials/securing-your-wordpress/</link>
+      <link>https://www.sitebay.org/support/tutorials/securing-your-wordpress/</link>
       <pubDate>Wed, 17 Feb 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/tutorials/securing-your-wordpress/</guid>
+      <guid>https://www.sitebay.org/support/tutorials/securing-your-wordpress/</guid>
       <description>In the Getting Started tutorial, you learned how to create a site and do basic tasks.</description>
     </item>
     

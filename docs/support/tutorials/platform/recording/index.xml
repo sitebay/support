@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recording on Site Bay Tutorials</title>
-    <link>https://support.sitebay.org/support/tutorials/platform/recording/</link>
+    <link>https://www.sitebay.org/support/tutorials/platform/recording/</link>
     <description>Recent content in Recording on Site Bay Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://support.sitebay.org/support/tutorials/platform/recording/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.sitebay.org/support/tutorials/platform/recording/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Site Bay Recordings</title>
-      <link>https://support.sitebay.org/support/tutorials/sitebay-recordings-page/</link>
+      <link>https://www.sitebay.org/support/tutorials/sitebay-recordings-page/</link>
       <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/tutorials/sitebay-recordings-page/</guid>
+      <guid>https://www.sitebay.org/support/tutorials/sitebay-recordings-page/</guid>
       <description>The Site Bay recordings Page thanks to PostHog, My Site Bay provides real-time recordings of how user&amp;rsquo;s use your Site Bay hosted WordPress site.</description>
     </item>
     

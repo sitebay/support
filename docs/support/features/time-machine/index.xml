@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Point-in-Time Machine on Site Bay Tutorials</title>
-    <link>https://support.sitebay.org/support/features/time-machine/</link>
+    <link>https://www.sitebay.org/support/features/time-machine/</link>
     <description>Recent content in Point-in-Time Machine on Site Bay Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://support.sitebay.org/support/features/time-machine/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/support/features/time-machine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Developers</title>
-      <link>https://support.sitebay.org/support/features/time-machine/time-machine-api/</link>
+      <link>https://www.sitebay.org/support/features/time-machine/time-machine-api/</link>
       <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/features/time-machine/time-machine-api/</guid>
+      <guid>https://www.sitebay.org/support/features/time-machine/time-machine-api/</guid>
       <description>Site Bay APISite Bay’s API allows you to do the following:
 List Snapshots
 View Snapshot</description>
@@ -20,19 +20,19 @@ View Snapshot</description>
     
     <item>
       <title>Get Started</title>
-      <link>https://support.sitebay.org/support/features/time-machine/get-started-with-pit-machine/</link>
+      <link>https://www.sitebay.org/support/features/time-machine/get-started-with-pit-machine/</link>
       <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/features/time-machine/get-started-with-pit-machine/</guid>
+      <guid>https://www.sitebay.org/support/features/time-machine/get-started-with-pit-machine/</guid>
       <description>Use Site Bay&amp;rsquo;s Point-in-time MachineYou can restore your site, create a new staging site, or view files from a previous time on My Site Bay.</description>
     </item>
     
     <item>
       <title>Resources</title>
-      <link>https://support.sitebay.org/support/features/time-machine/resources/</link>
+      <link>https://www.sitebay.org/support/features/time-machine/resources/</link>
       <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://support.sitebay.org/support/features/time-machine/resources/</guid>
+      <guid>https://www.sitebay.org/support/features/time-machine/resources/</guid>
       <description> Blog Posts How to Keep WordPress Secure: The Basics </description>
     </item>
     
