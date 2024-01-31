@@ -1,0 +1,21 @@
+{{/* Loads resources from https://github.com/sitebay/sitebay-website-partials
+  See the module section in config.toml in this repo.
+*/}}
+{{ $partialsJS := resources.Match "sitebay/{header,attribution-inline}.js" }}
+{{ if ne (len $partialsJS) 2 }}
+  {{ errorf "Got %d partial JS files, expected 2" (len $partialsJS) }}
+{{ end }}
+{{ $js := $partialsJS | resources.Concat "sitebay/partials.js" }}
+{{ $styles := (resources.Match "sitebay/*.css")  | resources.Concat "sitebay/header-footer.css" }}
+{{ if or (not $js) (not $styles) }}
+  {{ errorf "sitebay-website-partials: asset(s) not found" }}
+{{ end }}
+{{ if  (ne hugo.Environment "development") }}
+  {{ $styles = $styles | minify | fingerprint }}
+{{ end }}
+<link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
+{{ partial "helpers/script-src.html" $js }}
+{{/* TrustArc for cookie consents. Also see the partial sections/before-body-end.html */}}<script
+  async
+  crossorigin
+  src="https://consent.trustarc.com/notice?domain={{ site.Params.trustarc_domain }}&c=teconsent&js=nj&noticeType=bb&text=true&gtm=1"></script>

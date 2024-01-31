@@ -1,0 +1,9 @@
+[[queries.featured]]
+key = "Title"
+operator = "eq"
+match = "Deploy a Minecraft Server with Marketplace Apps"
+
+[[queries.getting_started]]
+key = "Title"
+operator = "in"
+match = ["Use Advanced OpenSSH Features to Harden Access to Your Site Bay", "A Beginner's Tutorial to Kubernetes, Part 1: Introduction"]

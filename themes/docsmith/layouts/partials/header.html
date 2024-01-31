@@ -1,0 +1,274 @@
+<style>
+  .wp-custom-logo .site-header {
+    align-items: center;
+}
+.site-header {
+    background-color: white;
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.24), 0 2px 2px 0 rgba(0,0,0,.12);
+    box-shadow: 0 0 2px 0 rgba(0,0,0,.24), 0 2px 2px 0 rgba(0,0,0,.32);
+}
+
+.site-header {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.sub-header {
+  box-shadow: 0 0 2px 0 rgba(0,0,0,.24), 0 2px 2px 0 rgba(0,0,0,.12);
+}
+
+li.current {
+  box-shadow: inset 0 -7px #036C9E;
+}
+
+.admin-bar .primary-navigation {
+    top: initial;
+}
+.primary-navigation {
+    margin-left: 50px;
+    margin-right: 50px;
+    width: -webkit-fill-available;
+}
+.primary-navigation {
+    position: relative;
+    margin-left: auto;
+}
+
+.menu-button-container {
+    display: none;
+    justify-content: space-between;
+    position: absolute;
+    right: 0;
+}
+
+@media only screen and (min-width: 482px) {
+  .primary-navigation > .primary-menu-container {
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+    padding: 0;
+    background-color: transparent;
+    overflow: initial;
+    transform: none;
+  }
+}
+.primary-navigation > .primary-menu-container {
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: all 0.15s ease-in-out;
+  transform: translateY(var(--global--spacing-vertical));
+}
+.primary-navigation a {
+  color: #676767;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  letter-spacing: .1em!important;
+}
+
+.nav-btn {
+  margin-right: 20px;
+}
+
+.nav-btn > a {
+  display: inline-block;
+  background: #00A0D2;
+  color: #fff!important;
+  padding: 11px 18px;
+  box-shadow: 0 0 1px rgba(0,0,0,.24), 0 2px 4px rgba(0,0,0,.14);
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 5px;
+  border-radius: 40px;
+  font-size: 1.2rem!important;
+  line-height: 1.2rem!important;
+  border-width: 1.4px;
+  border-color: rgb(0 160 210 / 0.73);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.login-btn {
+  right: 0;
+  flex: auto;
+  flex-direction: row-reverse;
+  max-width: fit-content;
+  margin-left: auto!important;
+  margin-right: 20px!important;
+}
+.login-btn > a {
+  background: rgba(0,0,0,.03)!important;
+  color: #676767!important;
+  border-color: #676767!important;
+}
+
+.menu-item:hover {
+  box-shadow: inset 0 -7px rgb(3 108 158 / 70%);
+  transition: all 250ms ease-in-out;
+}
+
+.current-menu-item > a {
+    color: #2b3137!important;
+}
+
+.Box {
+  border: 1px solid #dfdfdf;
+  border-radius: 6px;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 2px 2px 0 rgba(0,0,0,.06), 0 0 2px 0 rgba(0,0,0,.07);
+}
+
+.p30 {
+  padding: 30px;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,.1), 0 2px 2px 0 rgba(0,0,0,.06), 0 0 2px 0 rgba(0,0,0,.07)!important;
+  border-radius: 6px!important;
+  border: 1px solid #dfdfdf!important;
+}
+
+@media only screen and (max-width: 482px) {
+.home-buttons {
+    width: 100%;
+    align-self: center;
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+}
+.text-center-mobile {
+  text-align: center; 
+}
+
+}
+
+.Button--blue {
+    display: inline-block;
+    background: #00A0D2;
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(0, 160, 210);
+    color: #fff!important;
+    padding: 11px 18px;
+    box-shadow: 0 0 1px rgba(0,0,0,.24), 0 2px 4px rgba(0,0,0,.14);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 5px;
+    border-radius: 40px;
+    font-size: 1.2rem!important;
+    line-height: 1.2rem!important;
+    border-width: 1.4px;
+    border-color: rgb(0 160 210 / 0.73);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.img-wrapper {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.feature-img {
+  width: 100%!important;
+}
+</style>
+
+
+<div id="masthead" class="site-header has-logo has-title-and-tagline has-menu c-site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
+
+
+
+  <div class="o-layout__row c-site-header__primary">
+    <div class="o-layout__colset">
+      <div class="o-layout__col">
+
+        <div class="o-layout__module c-identity">
+          <a class="c-identity__link" href="https://www.sitebay.org/" target="_self" itemprop="url">
+            <img width="200px" height="57px" src="https://www.sitebay.org/wp-content/uploads/2021/02/sitebay-logo-mobile-no-alph.png" class="c-identity__image custom-logo" alt="Site Bay Logo"  itemprop="image" data-no-lazy="1" srcset="https://www.sitebay.org/wp-content/uploads/2021/02/sitebay-logo-mobile-no-alph.png 200w, https://www.sitebay.org/wp-content/uploads/2021/02/sitebay-logo-mobile-no-alph.png 200w">
+          </a>
+        </div>
+
+      </div>
+      <div class="o-layout__col">
+
+        <div class="o-layout__module c-main-menu">
+          <nav class="o-menu o-menu--flex primary-navigation">
+            <ul class="o-menu__list">
+              <li id="menu-item-123" class="o-menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a class="o-menu__link__footer" href="https://www.sitebay.org/pricing/">Pricing</a></li>
+              <li id="menu-item-124" class="o-menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-124"><a class="o-menu__link__footer" href="https://www.sitebay.org/features/">Features</a></li>
+              <li class="o-menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-27"><a class="o-menu__link__footer" href="https://www.sitebay.org/contact/">Contact</a></li>
+              <li class="o-menu__item menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a class="o-menu__link__footer" href="https://www.sitebay.org/blog/">Blog</a></li>
+              <li class="o-menu__item menu-item menu-item-type-custom menu-item-object-custom menu-item-129 current"><a class="o-menu__link__footer" href="/support">Support</a></li>
+              <li class="o-menu__item nav-btn login-btn menu-item-type-custom menu-item-object-custom menu-item-138"><a class="button" href="https://my.sitebay.org/login">Log In</a></li>
+              <li class="o-menu__item nav-btn signup-btn menu-item-type-custom menu-item-object-custom menu-item-84"><a class="button" href="https://my.sitebay.org/register">Sign Up</a></li>
+              <li class="o-menu__item o-menu__item--mobile"><a class="o-menu__link__footer" href="#sub-menu--mobile"><span class="o-menu__title">Mobile</span></a></li>
+            </ul>
+          </nav>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="o-layout__row c-sub-menu c-sub-menu--mobile" id="sub-menu--mobile">
+    <div class="o-layout__colset">
+      <div class="o-layout__col">
+
+        <div class="o-layout__module">
+          <nav class="o-menu o-menu--featured">
+            <ul class="o-menu__list">
+              <li class="o-menu__item"><a class="o-menu__link__footer" href="https://www.sitebay.org/pricing/"><span class="o-menu__title">Pricing</span></a></li>
+              <li class="o-menu__item"><a class="o-menu__link__footer" href="https://www.sitebay.org/features/"><span class="o-menu__title">Features</span></a></li>
+              <li class="o-menu__item"><a class="o-menu__link__footer" href="https://www.sitebay.org/contact/"><span class="o-menu__title">Contact</span></a></li>
+              <li class="o-menu__item"><a class="o-menu__link__footer" href="https://www.sitebay.org/blog/"><span class="o-menu__title">Blog</span></a></li>
+              <li class="o-menu__item"><a class="o-menu__link__footer" href="https://www.sitebay.org/support/"><span class="o-menu__title">Support</span></a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="o-layout__module">
+          <nav class="o-menu o-menu--2col">
+            <ul class="o-menu__list">
+              <li class="o-menu__item"><a class="o-menu__link__footer" href="https://www.sitebay.org/agency/"><span class="o-menu__title">Agency</span></a></li>
+              <li class="o-menu__item"><a class="o-menu__link__footer" href="https://my.sitebay.org/login"><span class="o-menu__title">Log In</span></a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="o-layout__module">
+          <a href="https://my.sitebay.org/signup" target="_self" class="o-button">Sign Up</a>
+        </div>
+
+        <div class="o-layout__module">
+          <form role="search" method="get" action="https://www.sitebay.org/" class="c-search">
+            <label for="s">Search</label>
+            <input type="search" placeholder="Search all of Site Bay" name="s">
+            <input type="submit" value="Search">
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+</div>

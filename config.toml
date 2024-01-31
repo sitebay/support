@@ -1,0 +1,156 @@
+# If you update baseURL, *YOU NEED TO UPDATE* scripts/generate_permanent_redirects.sh
+# so that it correctly parses the URL
+baseURL = "https://support.sitebay.org/support/"
+languageCode = "en-us"
+title = "Site Bay Tutorials"
+
+disableKinds = ["taxonomy", "taxonomyTerm"]
+themeDir = ".."
+rssLimit = 30
+summaryLength = 15
+timeout = "2m"
+
+disqusShortname="sitebay"
+
+enableGitInfo = true
+
+[outputs]
+# The JSON is for the search index. We build this on every build to make sure we have the image thumbnails in sync.
+home = ["HTML", "JSON", "RSS"]
+
+[frontmatter]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["published", "publishDate", "date"]
+
+[params]
+description = "Support and Tutorials for the Site Bay Platform, Search engine optimization, and general WordPress help."
+# Date and time formatting, see https://gohugo.io/functions/format/
+time_format_RFC3339 = "2006-01-02T15:04:05Z07:00"
+time_format_default = "Monday, January 2, 2006"
+promo_code = "new-user-25"
+promo_code_amount = 25
+promo_code_disclaimer = "This credit will be applied to any plan."
+page_title_suffix = "Site Bay"
+
+[params.search_config]
+app_id = "KUIV9CXVR6"
+api_key = "4acc9034c6e4bf48221b53c81cfb7382"
+meta_index = "sitebay-documentation-sections"
+explorer_max_leafnodes = 50
+hits_per_page = 4
+
+[[params.search_config.sections]]
+name = "features"
+index = "sitebay-documentation"
+index_by_pubdate = "sitebay-documentation-sorted"
+title = "Features"
+filters = "section.lvl0:features"
+# The icons are fetched from layouts/sections/navigation/explorer-icons.html
+explorer_icon = "#icon-explorer--features"
+explorer_map_title = true
+filtering_facets = [
+#     { name = "category", title = "Doc Category" },
+#     { name = "skillLevel", title = "Skill Level" },
+#     { name = "languages", title = "Languages" },
+     { name = "tags", title = "Tags", isTags = true }
+]
+explorer_regular_pages_start_level = 2
+hits_per_page = 4
+download_settings = true
+
+[[params.search_config.sections]]
+name = "tutorials"
+index = "sitebay-documentation"
+index_by_pubdate = "sitebay-documentation-sorted"
+title = "Tutorials"
+filters = "section.lvl0:tutorials"
+explorer_icon = "#icon-explorer--tutorials"
+explorer_map_title = true
+filtering_facets = [
+#     { name = "category", title = "Doc Category" },
+#     { name = "skillLevel", title = "Skill Level" },
+#     { name = "languages", title = "Languages" },
+    { name = "tags", title = "Tags", isTags = true }
+]
+explorer_regular_pages_start_level = 2
+hits_per_page = 4
+
+[[params.search_config.sections]]
+name = "api"
+index = "sitebay-documentation-api"
+title = "API"
+filters = "section.lvl0:api"
+explorer_icon = "#icon-explorer--api"
+explorer_regular_pages_start_level = 2
+hits_per_page = 4
+# filtering_facets = [{ name = "category", title = "Doc Category" }]
+download_settings = true
+
+[[params.search_config.sections]]
+name = "templates"
+index = "sitebay-wp"
+index_by_pubdate = "sitebay-wp-sorted"
+title = "templates"
+filters = "section.lvl0:tutorials"
+explorer_icon = "#icon-explorer--templates"
+explorer_regular_pages_start_level = 2
+hits_per_page = 4
+#filtering_facets = [{ name = "category", title = "Doc Category" }]
+
+[[params.search_config.sections]]
+name = "blog"
+index = "sitebay-wp"
+index_by_pubdate = "sitebay-wp-sorted"
+title = "Blog"
+explorer_icon = "#icon-explorer--blog"
+explorer_regular_pages_start_level = 2
+hits_per_page = 4
+#filtering_facets = [{ name = "category", title = "Doc Category" }]
+
+[[params.search_config.sections]]
+# Identifier. It's also used as the Algolia index name.
+# If you need to map several sections to one Algolia index,
+# set the index attribute.
+name = "resources"
+index = "sitebay-wp"
+index_by_pubdate = "sitebay-wp-sorted"
+title = "Resources"
+filters = "section.lvl0:Resources"
+explorer_icon = "#icon-explorer--resources"
+explorer_regular_pages_start_level = 2
+hits_per_page = 4
+# filtering_facets = [{ name = "category", title = "Doc Category" }]
+
+[[params.search_config.sections]]
+name = "qa"
+index = "sitebay-community"
+index_by_pubdate = "sitebay-community-sorted"
+title = "Q&A"
+filters = "objectType:question"
+section_facet = "objectType"
+explorer_icon = "#icon-explorer--qa"
+explorer_regular_pages_start_level = 4 # Not relevant, set it high to avoid triggering any search.
+hits_per_page = 4
+# filtering_facets = [{ name = "category", title = "Doc Category" }]
+
+[minify]
+disableSVG = false
+
+[imaging]
+resampleFilter = "CatmullRom"
+quality = 75
+anchor = "smart"
+
+[permalinks]
+  tutorials = "/tutorials/:slug/"
+
+[security]
+  enableInlineShortcodes = false
+  [security.exec]
+    allow = ['^dart-sass-embedded$', '^babel$', '^go$', '^npx$', '^postcss$']
+    osEnv = ['(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM)$']
+  [security.funcs]
+    getenv = ['^HUGO_']
+  [security.http]
+    methods = ['(?i)GET|POST']
+    urls = ['.*']

@@ -1,0 +1,15 @@
+[tutorials-count]
+one = "One Tutorial"
+other = "{{ .Count }} Tutorials"
+
+[tutorials-count-available]
+one = "One Tutorial Available"
+other = "{{ .Count }} Tutorials Available"
+
+[features-count]
+one = "One Product"
+other = "{{ .Count }} Features"
+
+[features-count-available]
+one = "One Product Available"
+other = "{{ .Count }} Features Available"

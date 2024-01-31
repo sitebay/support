@@ -1,0 +1,5 @@
+{
+  "indexName": "sitebay-merged",
+  "facets": ["section.*", "docType", "category", "tags"],
+  "distinct": 1
+}

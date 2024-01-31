@@ -1,0 +1,45 @@
+{
+  "comments": {
+    "dependencies": {},
+    "devDependencies": {
+      "@babel/cli": "github.com/sitebay/sitebay-docs-theme",
+      "@babel/core": "github.com/sitebay/sitebay-docs-theme",
+      "@babel/preset-env": "github.com/sitebay/sitebay-docs-theme",
+      "@tailwindcss/forms": "github.com/sitebay/sitebay-docs-theme",
+      "@tailwindcss/typography": "github.com/sitebay/sitebay-docs-theme",
+      "autoprefixer": "github.com/sitebay/sitebay-docs-theme",
+      "axe-core": "github.com/sitebay/sitebay-docs-theme",
+      "core-js": "github.com/sitebay/sitebay-docs-theme",
+      "cypress": "github.com/sitebay/sitebay-docs-theme",
+      "cypress-axe": "github.com/sitebay/sitebay-docs-theme",
+      "cypress-html-validate": "github.com/sitebay/sitebay-docs-theme",
+      "html-validate": "github.com/sitebay/sitebay-docs-theme",
+      "postcss": "github.com/sitebay/sitebay-docs-theme",
+      "postcss-cli": "github.com/sitebay/sitebay-docs-theme",
+      "prettier": "github.com/sitebay/sitebay-docs-theme",
+      "prettier-plugin-go-template": "github.com/sitebay/sitebay-docs-theme",
+      "tailwindcss": "github.com/sitebay/sitebay-docs-theme"
+    }
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@tailwindcss/forms": "^0.5.3",
+    "@tailwindcss/typography": "^0.5.9",
+    "autoprefixer": "^10.4.14",
+    "axe-core": "^4.3.3",
+    "core-js": "^3.18.1",
+    "cypress": "^13.2.0",
+    "cypress-axe": "^0.12.0",
+    "cypress-html-validate": "^2.1.1",
+    "html-validate": "^6.1.0",
+    "postcss": "^8.4.24",
+    "postcss-cli": "^9.1.0",
+    "prettier": "2.6.2",
+    "prettier-plugin-go-template": "0.0.12",
+    "tailwindcss": "^3.3.2"
+  },
+  "name": "sitebay-docs",
+  "version": "0.1.0"
+}

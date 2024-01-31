@@ -1,0 +1,5 @@
+---
+title: Plans
+slug: plan
+---
+

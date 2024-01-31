@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monitoring on Site Bay Tutorials</title>
+    <link>https://support.sitebay.org/support/tutorials/platform/monitoring/</link>
+    <description>Recent content in Monitoring on Site Bay Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="https://support.sitebay.org/support/tutorials/platform/monitoring/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Subscribe to Site Bay Status Updates</title>
+      <link>https://support.sitebay.org/support/tutorials/sitebay-status-page/</link>
+      <pubDate>Thu, 20 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://support.sitebay.org/support/tutorials/sitebay-status-page/</guid>
+      <description>The Site Bay Status Page provides real-time system status and maintenance updates via email, SMS, and Atom and RSS feed.</description>
+    </item>
+    
+  </channel>
+</rss>

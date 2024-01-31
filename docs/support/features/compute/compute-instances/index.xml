@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Compute Instances on Site Bay Tutorials</title>
+    <link>https://www.sitebay.org/support/features/compute/compute-instances/</link>
+    <description>Recent content in Compute Instances on Site Bay Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 18 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://www.sitebay.org/support/features/compute/compute-instances/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Get Started</title>
+      <link>https://www.sitebay.org/support/features/compute/compute-instances/get-started/</link>
+      <pubDate>Wed, 18 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.sitebay.org/support/features/compute/compute-instances/get-started/</guid>
+      <description>Compute Instances (cloud-based virtual machines) are the foundational infrastructure components for most applications and workloads running on Site Bay.</description>
+    </item>
+    
+  </channel>
+</rss>
