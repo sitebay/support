@@ -8,8 +8,8 @@ other = "{{ .Count }} Tutorials Available"
 
 [features-count]
 one = "One Product"
-other = "{{ .Count }} Features"
+other = "{{ .Count }} Products"
 
 [features-count-available]
 one = "One Product Available"
-other = "{{ .Count }} Features Available"
+other = "{{ .Count }} Products Available"

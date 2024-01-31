@@ -1,9 +1,9 @@
 [params]
-    # GTM container used in Staging (docs.staging.sitebay.org/docs)
+    # GTM container used in Staging (docs.staging.sitebay.org/support)
     # gtmID = "GTM-T5FXXG9"
 
-    # Adobe Analytics script used in Staging (docs.staging.sitebay.org/docs)
+    # Adobe Analytics script used in Staging (docs.staging.sitebay.org/support)
     adobe_launch_script = "https://assets.adobedtm.com/fcfd3580c848/f9e7661907ee/launch-96338797f65e-staging.min.js"
 
-    # Trustarc domain used in Staging (docs.staging.sitebay.org/docs)
+    # Trustarc domain used in Staging (docs.staging.sitebay.org/support)
     # trustarc_domain = "sitebay.org"

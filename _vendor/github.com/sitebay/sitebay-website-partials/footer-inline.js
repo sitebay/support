@@ -1,19 +1,20 @@
 (() => {
   // src/js/Footer/storage.js
+  var now = new Date();
   function daysFromNow(days = 0) {
-    let d = /* @__PURE__ */ new Date();
+    let d = new Date();
     d.setTime(d.getTime() + days * 24 * 60 * 60 * 1e3);
     return d;
   }
   function expireFromLocal(name) {
     if (null === localStorage.getItem(name))
       return;
-    let now = /* @__PURE__ */ new Date(), exp_value = localStorage.getItem(`${name}_exp`), exp_date = null !== exp_value ? new Date(exp_value) : now;
+    let now2 = new Date(), exp_value = localStorage.getItem(`${name}_exp`), exp_date = null !== exp_value ? new Date(exp_value) : now2;
     if (isNaN(exp_date)) {
       localStorage.removeItem(`${name}_exp`);
       return;
     }
-    if (now < exp_date)
+    if (now2 < exp_date)
       return;
     localStorage.removeItem(name);
     localStorage.removeItem(`${name}_exp`);
@@ -117,15 +118,15 @@
   } else if (localPromoCode || cookies2.promoCode) {
     updatePromoCodes(localPromoCode || cookies2.promoCode, true);
   } else {
-    fetch("https://www.sitebay.org/wp-json/sitebay/v1/promo-data").then((response) => {
-      if (!response.ok)
-        throw new Error("");
-      return response;
-    }).then((response) => response.json()).then((data) => {
-      if (data.global && data.global.promo_code) {
-        updatePromoCodes(data.global.promo_code, false);
-      }
-    }).catch((error) => {
-    });
+    //fetch("https://www.sitebay.org/wp-json/sitebay/v1/promo-data").then((response) => {
+    //  if (!response.ok)
+    //    throw new Error("");
+    //  return response;
+    //}).then((response) => response.json()).then((data) => {
+    //  if (data.global && data.global.promo_code) {
+    //    updatePromoCodes(data.global.promo_code, false);
+    //  }
+    //}).catch((error) => {
+    //});
   }
 })();

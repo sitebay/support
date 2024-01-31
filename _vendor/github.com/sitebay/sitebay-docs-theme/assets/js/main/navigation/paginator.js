@@ -1,7 +1,5 @@
 'use strict';
 
-import { getIntParamFromLocation, updatePaginationParamInLocation } from '../helpers/index';
-
 var debug = 0 ? console.log.bind(console, '[paginator]') : function () {};
 
 export function newPaginatorController() {
@@ -10,6 +8,17 @@ export function newPaginatorController() {
 	};
 
 	const pageKey = 'page';
+
+	const updateLocation = (page) => {
+		let url = new URL(window.location);
+		url.hash = '';
+		if (page == 1) {
+			url.searchParams.delete(pageKey);
+		} else {
+			url.searchParams.set(pageKey, page);
+		}
+		window.history.replaceState({ turbo: {} }, '', url);
+	};
 
 	return {
 		pages: [],
@@ -62,10 +71,14 @@ export function newPaginatorController() {
 		},
 
 		async initPaginator(url, pageSize) {
-			this.page = getIntParamFromLocation(pageKey);
+			let loc = new URL(window.location);
+			let currentPageString = loc.searchParams.get(pageKey);
+			if (currentPageString) {
+				this.page = parseInt(currentPageString, 10);
+			}
 
 			this.$watch('page', (page) => {
-				updatePaginationParamInLocation(pageKey, page);
+				updateLocation(page);
 			});
 
 			let data = await fetch(url);

@@ -1,11 +1,6 @@
 'use strict';
 
-import {
-	newRequestCallback,
-	newRequestCallbackFactoryTarget,
-	SearchGroupIdentifier,
-	RequestCallBackStatus,
-} from '../../search/request';
+import { newRequestCallbackFactoryTarget, SearchGroupIdentifier, RequestCallBackStatus } from '../../search/request';
 import { isMobile, isTouchDevice, newSwiper } from '../../helpers/index';
 
 var debug = 0 ? console.log.bind(console, '[home]') : function () {};
@@ -15,7 +10,6 @@ export function newHomeController(searchConfig, staticData) {
 
 	// The section we paginate on the home page.
 	// This maps to section.lvl0 in sitebay-merged.
-	// const sectionLevel0s = ['tutorials', 'blog', 'resources', 'marketplace', 'community'];
 	const sectionLevel0s = ['tutorials', 'blog', 'resources', 'marketplace', 'community'];
 
 	// Avoid loading too much data when on mobile.
@@ -207,7 +201,7 @@ export function newHomeController(searchConfig, staticData) {
 				this.data.sectionTiles['features'] = newPager(
 					featuresStripPageSize,
 					this.$refs[`carousel-features`],
-					staticData.productItems
+					staticData.featureItems
 				);
 				// Make the developers pager the same size as the features pager.
 				this.data.sectionTiles['developers'] = newPager(
@@ -236,9 +230,12 @@ export function newHomeController(searchConfig, staticData) {
 							return RequestCallBackStatus.Once;
 						},
 						create: () => {
-							return newRequestCallback(requestFromSection(name), (result) => {
-								this.data.sectionTiles[name].setItems(result.hits);
-							});
+							return {
+								request: requestFromSection(name),
+								callback: (result) => {
+									this.data.sectionTiles[name].setItems(result.hits);
+								},
+							};
 						},
 					};
 

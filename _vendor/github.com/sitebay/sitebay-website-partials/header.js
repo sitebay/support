@@ -1,4 +1,22 @@
 (() => {
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector(".navbar-burger").addEventListener("click", function() {
+    console.log('click');
+        var navbarBurger = document.querySelector('.navbar-burger');
+        var subMenuMobile = document.querySelector('#sub-menu--mobile');
+        var content = document.querySelector('#content');
+
+        navbarBurger.classList.toggle('is-active');
+        subMenuMobile.classList.toggle('active');
+
+        if (subMenuMobile.classList.contains('active')) {
+            content.style.display = 'none';
+        } else {
+            content.style.display = 'block';
+        }
+    });
+  });
+
   // src/js/Main/main-menu.js
   var $html = document.querySelector("html");
   var $header;
@@ -9,16 +27,10 @@
     bindEvents();
     setActiveMenuItem();
   };
-  var setScrollY = function() {
-    document.documentElement.style.setProperty("--site-scroll-y", window.scrollY + "px");
-  };
   var bindEvents = function() {
-    if (document.readyState === "loading") {
-      document.addEventListener("DOMContentLoaded", setScrollY);
-    } else {
-      setScrollY();
-    }
-    window.addEventListener("scroll", setScrollY);
+    window.addEventListener("scroll", function() {
+      document.documentElement.style.setProperty("--site-scroll-y", window.scrollY + "px");
+    });
     $header.addEventListener("toggle:on", function(event) {
       setHtmlScrollState(false);
     });
@@ -41,7 +53,7 @@
       return;
     } else if (current_path.match(/^\/community\/questions\/.+/)) {
       current_path = "/community/questions/";
-    } else if (current_path.match(/^\/docs\/.+/)) {
+    } else if (current_path.match(/^\/support\/.+/)) {
       current_path = "/support/";
     } else if (current_path.match(/^\/blog|marketplace\/.+/)) {
       current_path = current_path.replace(/^\/([^\/]+)\/.+/, "/$1/");
@@ -49,7 +61,7 @@
       current_path = "/events/";
     } else if (current_path.match(/^\/content|content-type|featuring|series\/.+/)) {
       current_path = "/content/";
-    } else if (current_path.match(/^\/media\-coverage|press\-release\/.+/)) {
+    } else if (current_path.match(/^\/award|media\-coverage|press\-release\/.+/)) {
       current_path = "/company/press/";
     }
     var $current_links = $header.querySelectorAll(':scope a.o-menu__link[href*="' + current_path + '"');
@@ -179,8 +191,6 @@
     $img.src = data.src;
     $img.width = data.width;
     $img.height = data.height;
-    $img.loading = "lazy";
-    $img.fetchPriority = "low";
     if (data.alt) {
       $img.alt = data.alt;
     }

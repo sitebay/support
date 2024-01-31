@@ -1,4 +1,4 @@
-const linodeDotCom = 'https://www.sitebay.org';
+const sitebayDotCom = 'https://www.sitebay.org';
 
 export function addLangToLinks(lang, container) {
 	if (!container) {
@@ -9,7 +9,7 @@ export function addLangToLinks(lang, container) {
 		let link = links[i];
 
 		let href = link.getAttribute('href');
-		if (!href || href.startsWith(`${linodeDotCom}/${lang}/`)) {
+		if (!href || href.startsWith(`${sitebayDotCom}/${lang}/`)) {
 			// Language already present.
 			continue;
 		}
@@ -22,11 +22,11 @@ export function addLangToLinks(lang, container) {
 }
 
 export function addLangToHref(href, lang) {
-	if (!(href && href.startsWith(`${linodeDotCom}`))) {
+	if (!(href && href.startsWith(`${sitebayDotCom}`))) {
 		return href;
 	}
 	let url = new URL(href);
-	let pathExcludeRe = /(\/docs\/|\/community\/questions\/|\/wp-content\/)/;
+	let pathExcludeRe = /(\/support\/|\/community\/questions\/|\/wp-content\/)/;
 	if (pathExcludeRe.test(url.pathname)) {
 		return href;
 	}

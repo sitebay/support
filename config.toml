@@ -1,6 +1,6 @@
 # If you update baseURL, *YOU NEED TO UPDATE* scripts/generate_permanent_redirects.sh
 # so that it correctly parses the URL
-baseURL = "https://support.sitebay.org/support/"
+baseURL = "https://www.sitebay.org/support/"
 languageCode = "en-us"
 title = "Site Bay Tutorials"
 

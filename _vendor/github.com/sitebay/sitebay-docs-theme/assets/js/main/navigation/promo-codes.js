@@ -21,7 +21,7 @@ export function newPromoCodesController(isTest) {
 			code: {},
 		},
 		signupURL: function (withPromo) {
-			const baseURL = 'https://login.sitebay.org/signup';
+			const baseURL = 'https://my.sitebay.org/signup';
 			let promo = this.promoCode();
 			if (withPromo && promo) {
 				return baseURL + '?promo=' + promo;

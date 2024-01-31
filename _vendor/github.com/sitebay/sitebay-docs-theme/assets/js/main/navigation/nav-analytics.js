@@ -1,7 +1,7 @@
 import { smartQueue, getCookie, setCookie, supportsCookies, createUUID } from '../helpers';
 
 const unspecificedUserToken = 'unspecified';
-const userTokenCookieName = 'linode_anonymous_usertoken';
+const userTokenCookieName = 'sitebay_anonymous_usertoken';
 
 var debug = 0 ? console.log.bind(console, '[nav-analytics]') : function () {};
 

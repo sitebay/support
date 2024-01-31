@@ -1,8 +1,8 @@
 {{ $public := "public" }}
-{{ $githubBasePath := "https://github.com/sitebay/support/edit/develop/docs" }}
+{{ $githubBasePath := "https://github.com/sitebay/support/edit/develop/support" }}
 {{ if not site.IsServer }}
 {{/*  Netlify */}}
-{{ $public = "public/docs" }}
+{{ $public = "public/support" }}
 {{ end }}
 {{ $isTest := or (not (not site.IsServer)) (site.Params.TestEnv) }}
 {{ if not $isTest }}

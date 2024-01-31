@@ -141,7 +141,7 @@ module.exports = {
 		customform,
 		typography,
 	],
-	important: '#ln-docs',
+	important: '#sb-docs',
 	theme: {
 		extend: {
 			spacing: {

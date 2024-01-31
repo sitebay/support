@@ -137,7 +137,7 @@ export function newNavStore(searchConfig, searchStore, params, Alpine) {
 			}
 
 			// We got here directly, no history. Navigate back to the home page.
-			Turbo.visit('/docs');
+			Turbo.visit('/support');
 		},
 
 		pushState(href) {
