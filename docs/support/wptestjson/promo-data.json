@@ -1,12 +1,12 @@
 {
   "global": {
-    "promo_code": "new-user-25",
-    "promo_value": "25",
+    "promo_code": "signup50-0722",
+    "promo_value": "50",
     "promo_days": "60"
   },
   "docs": {
-    "promo_code": "new-user-25",
-    "promo_value": "25",
-    "promo_days": "60"
+    "promo_code": "docs1000822",
+    "promo_value": "101",
+    "promo_days": "61"
   }
 }

@@ -7,15 +7,19 @@ components:
           title: Limit
           type: integer
         next:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Next
-          type: string
         offset:
           minimum: 0.0
           title: Offset
           type: integer
         previous:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Previous
-          type: string
         results:
           items:
             $ref: '#/components/schemas/ExternalPath'
@@ -29,6 +33,8 @@ components:
       - offset
       - total_count
       - results
+      - next
+      - previous
       title: AbstractPage[ExternalPath]
       type: object
     AbstractPage_PITRestore_:
@@ -38,15 +44,19 @@ components:
           title: Limit
           type: integer
         next:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Next
-          type: string
         offset:
           minimum: 0.0
           title: Offset
           type: integer
         previous:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Previous
-          type: string
         results:
           items:
             $ref: '#/components/schemas/PITRestore'
@@ -60,6 +70,8 @@ components:
       - offset
       - total_count
       - results
+      - next
+      - previous
       title: AbstractPage[PITRestore]
       type: object
     AbstractPage_ShopifyStore_:
@@ -69,15 +81,19 @@ components:
           title: Limit
           type: integer
         next:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Next
-          type: string
         offset:
           minimum: 0.0
           title: Offset
           type: integer
         previous:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Previous
-          type: string
         results:
           items:
             $ref: '#/components/schemas/ShopifyStore'
@@ -91,6 +107,8 @@ components:
       - offset
       - total_count
       - results
+      - next
+      - previous
       title: AbstractPage[ShopifyStore]
       type: object
     AbstractPage_SiteLive_:
@@ -100,15 +118,19 @@ components:
           title: Limit
           type: integer
         next:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Next
-          type: string
         offset:
           minimum: 0.0
           title: Offset
           type: integer
         previous:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Previous
-          type: string
         results:
           items:
             $ref: '#/components/schemas/SiteLive'
@@ -122,6 +144,8 @@ components:
       - offset
       - total_count
       - results
+      - next
+      - previous
       title: AbstractPage[SiteLive]
       type: object
     AbstractPage_TeamMemberInvite_:
@@ -131,15 +155,19 @@ components:
           title: Limit
           type: integer
         next:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Next
-          type: string
         offset:
           minimum: 0.0
           title: Offset
           type: integer
         previous:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Previous
-          type: string
         results:
           items:
             $ref: '#/components/schemas/TeamMemberInvite'
@@ -153,6 +181,8 @@ components:
       - offset
       - total_count
       - results
+      - next
+      - previous
       title: AbstractPage[TeamMemberInvite]
       type: object
     AbstractPage_TeamMember_:
@@ -162,15 +192,19 @@ components:
           title: Limit
           type: integer
         next:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Next
-          type: string
         offset:
           minimum: 0.0
           title: Offset
           type: integer
         previous:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Previous
-          type: string
         results:
           items:
             $ref: '#/components/schemas/TeamMember'
@@ -184,6 +218,8 @@ components:
       - offset
       - total_count
       - results
+      - next
+      - previous
       title: AbstractPage[TeamMember]
       type: object
     AbstractPage_Team_:
@@ -193,15 +229,19 @@ components:
           title: Limit
           type: integer
         next:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Next
-          type: string
         offset:
           minimum: 0.0
           title: Offset
           type: integer
         previous:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Previous
-          type: string
         results:
           items:
             $ref: '#/components/schemas/Team'
@@ -215,6 +255,8 @@ components:
       - offset
       - total_count
       - results
+      - next
+      - previous
       title: AbstractPage[Team]
       type: object
     AbstractPage_Template_:
@@ -224,15 +266,19 @@ components:
           title: Limit
           type: integer
         next:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Next
-          type: string
         offset:
           minimum: 0.0
           title: Offset
           type: integer
         previous:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Previous
-          type: string
         results:
           items:
             $ref: '#/components/schemas/Template'
@@ -246,6 +292,8 @@ components:
       - offset
       - total_count
       - results
+      - next
+      - previous
       title: AbstractPage[Template]
       type: object
     AbstractPage_UserAffiliate_:
@@ -255,15 +303,19 @@ components:
           title: Limit
           type: integer
         next:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Next
-          type: string
         offset:
           minimum: 0.0
           title: Offset
           type: integer
         previous:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Previous
-          type: string
         results:
           items:
             $ref: '#/components/schemas/UserAffiliate'
@@ -277,6 +329,8 @@ components:
       - offset
       - total_count
       - results
+      - next
+      - previous
       title: AbstractPage[UserAffiliate]
       type: object
     AbstractPage_UserEvent_:
@@ -286,15 +340,19 @@ components:
           title: Limit
           type: integer
         next:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Next
-          type: string
         offset:
           minimum: 0.0
           title: Offset
           type: integer
         previous:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Previous
-          type: string
         results:
           items:
             $ref: '#/components/schemas/UserEvent'
@@ -308,6 +366,8 @@ components:
       - offset
       - total_count
       - results
+      - next
+      - previous
       title: AbstractPage[UserEvent]
       type: object
     AffiliatePayout:
@@ -319,186 +379,123 @@ components:
           title: Bonus
           type: boolean
         currency:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Currency
-          type: string
+        plan:
+          $ref: '#/components/schemas/Plan'
         user:
-          $ref: '#/components/schemas/app__schemas__site_live__UserLimited'
+          $ref: '#/components/schemas/UserLimited'
       required:
       - amount
-      - currency
       - bonus
       - user
+      - plan
       title: AffiliatePayout
       type: object
-    Body_auth_cookie_login_f_api_v1_auth_login_post:
+    ApplicationPasswordCreate:
       properties:
-        client_id:
-          title: Client Id
-          type: string
-        client_secret:
-          title: Client Secret
-          type: string
-        grant_type:
-          pattern: password
-          title: Grant Type
+        fqdn:
+          title: Fqdn
           type: string
         password:
           title: Password
           type: string
-        scope:
-          default: ''
-          title: Scope
+        team_id:
+          format: uuid4
+          title: Team Id
           type: string
         username:
           title: Username
           type: string
       required:
+      - fqdn
       - username
       - password
-      title: Body_auth_cookie_login_f_api_v1_auth_login_post
+      - team_id
+      title: ApplicationPasswordCreate
       type: object
-    Body_create_migration_f_api_v1_migration_post:
+    ApplicationPasswordUpdate:
       properties:
-        current_url:
-          title: Current Url
-          type: string
-        extra:
-          title: Extra
-          type: string
-        ftp_address:
-          title: Ftp Address
-          type: string
-        ftp_password:
-          title: Ftp Password
-          type: string
-        ftp_user:
-          title: Ftp User
-          type: string
-        host:
-          title: Host
-          type: string
-        host_password:
-          title: Host Password
-          type: string
-        host_user:
-          title: Host User
-          type: string
-        migration_type:
-          title: Migration Type
-          type: string
-        wordpress_password:
-          title: Wordpress Password
-          type: string
-        wordpress_user:
-          title: Wordpress User
-          type: string
-        zip_file:
-          format: binary
-          title: Zip File
-          type: string
-        zip_file_name:
-          title: Zip File Name
-          type: string
-      required:
-      - wordpress_user
-      - wordpress_password
-      - current_url
-      title: Body_create_migration_f_api_v1_migration_post
-      type: object
-    Body_reset_forgot_password_f_api_v1_auth_forgot_password_post:
-      properties:
-        email:
-          format: email
-          title: Email
-          type: string
-      required:
-      - email
-      title: Body_reset_forgot_password_f_api_v1_auth_forgot_password_post
-      type: object
-    Body_reset_reset_password_f_api_v1_auth_reset_password_post:
-      properties:
+        fqdn:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Fqdn
         password:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Password
-          type: string
-        token:
-          title: Token
-          type: string
+        username:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Username
       required:
-      - token
+      - fqdn
+      - username
       - password
-      title: Body_reset_reset_password_f_api_v1_auth_reset_password_post
+      title: ApplicationPasswordUpdate
       type: object
-    Body_verify_request_token_f_api_v1_auth_request_verify_token_post:
+    BillingInterval:
+      enum:
+      - month
+      - year
+      title: BillingInterval
+      type: string
+    Body_get_blob_urls_f_api_v1_site_live__fqdn__get_download_urls_post:
       properties:
-        email:
-          format: email
-          title: Email
-          type: string
+        free_region_version_ids:
+          anyOf:
+          - items:
+              anyOf:
+              - type: string
+              - type: 'null'
+            type: array
+          - type: 'null'
+          examples:
+          - - version_id_1
+            - version_id_2
+          title: Free Region Version Ids
+        keys:
+          examples:
+          - - /wp-content/themes/twentytwentythree/readme.txt
+          items:
+            type: string
+          title: Keys
+          type: array
       required:
-      - email
-      title: Body_verify_request_token_f_api_v1_auth_request_verify_token_post
+      - keys
+      title: Body_get_blob_urls_f_api_v1_site_live__fqdn__get_download_urls_post
       type: object
-    Body_verify_verify_f_api_v1_auth_verify_post:
+    CheckoutSessionRequest:
       properties:
-        token:
-          title: Token
-          type: string
-      required:
-      - token
-      title: Body_verify_verify_f_api_v1_auth_verify_post
-      type: object
-    CloudflareDnsRecordCreate:
-      properties:
-        content:
-          title: Content
-          type: string
-        name:
-          title: Name
-          type: string
-        priority:
-          default: 0
-          title: Priority
-          type: integer
-        ttl:
-          default: 1
-          title: Ttl
-          type: integer
-        type:
-          title: Type
-          type: string
-      required:
-      - type
-      - name
-      - content
-      title: CloudflareDnsRecordCreate
-      type: object
-    CloudflareDnsRecordUpdate:
-      properties:
-        content:
-          title: Content
-          type: string
-        id:
-          title: Id
-          type: string
-        name:
-          title: Name
-          type: string
-        priority:
-          default: 0
-          title: Priority
-          type: integer
-        ttl:
-          default: 1
-          title: Ttl
-          type: integer
-        type:
-          title: Type
-          type: string
-      required:
-      - type
-      - name
-      - content
-      title: CloudflareDnsRecordUpdate
+        for_team_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Your existing Team ID on the free plan for which the plan is
+            being upgraded
+          title: For Team Id
+        interval:
+          allOf:
+          - $ref: '#/components/schemas/BillingInterval'
+          default: month
+          description: Billing interval, e.g., 'month' or 'year'
+        new_team_name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          description: Name of the new team. Must be specified if for_team_id is null.
+          title: New Team Name
+        plan_name:
+          allOf:
+          - $ref: '#/components/schemas/PlanName'
+          default: starter
+          description: Name of the plan type
+      title: CheckoutSessionRequest
       type: object
     Coupon:
       description: 'Coupon flow:
@@ -525,8 +522,10 @@ components:
           title: Id
           type: string
         terms:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Terms
-          type: string
       required:
       - id
       - discount
@@ -596,6 +595,50 @@ components:
       - path
       title: ExternalPathUpdate
       type: object
+    GrafanaQueryModel:
+      properties:
+        expr:
+          title: Expr
+          type: string
+        from:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: From
+        intervalMs:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          default: 10800000
+          title: Intervalms
+        maxDataPoints:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          default: 150
+          title: Maxdatapoints
+        maxLines:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          default: 100
+          title: Maxlines
+        queryType:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: range
+          title: Querytype
+        to:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: To
+      required:
+      - from
+      - expr
+      title: GrafanaQueryModel
+      type: object
     HTTPValidationError:
       properties:
         detail:
@@ -611,29 +654,45 @@ components:
           title: Current Url
           type: string
         extra:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Extra
-          type: string
         ftp_address:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Ftp Address
-          type: string
         ftp_password:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Ftp Password
-          type: string
         ftp_user:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Ftp User
-          type: string
-        host:
-          title: Host
-          type: string
+        host_name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Host Name
         host_password:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Host Password
-          type: string
         host_user:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Host User
-          type: string
         migration_type:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Migration Type
-          type: string
         wordpress_password:
           title: Wordpress Password
           type: string
@@ -641,93 +700,192 @@ components:
           title: Wordpress User
           type: string
         zip_file_name:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Zip File Name
-          type: string
       required:
       - wordpress_user
       - wordpress_password
       - current_url
+      - migration_type
+      - host_name
+      - host_user
+      - host_password
+      - ftp_address
+      - ftp_user
+      - ftp_password
+      - zip_file_name
+      - extra
       title: Migration
       type: object
     PITRestore:
       properties:
         backup_point:
-          format: date-time
+          anyOf:
+          - format: date-time
+            type: string
+          - type: 'null'
           title: Backup Point
+        created_at:
+          format: date-time
+          title: Created At
           type: string
+        delete_extra_files:
+          title: Delete Extra Files
+          type: boolean
+        files_added:
+          default: []
+          items:
+            type: string
+          title: Files Added
+          type: array
         files_deleted:
+          default: []
           items:
             type: string
           title: Files Deleted
           type: array
         files_restored:
+          default: []
           items:
             type: string
           title: Files Restored
           type: array
-        finished:
-          format: date-time
-          title: Finished
+        finished_at:
+          anyOf:
+          - format: date-time
+            type: string
+          - type: 'null'
+          title: Finished At
+        id:
+          format: uuid4
+          title: Id
           type: string
         new_folders:
+          default: []
           items:
             type: string
           title: New Folders
           type: array
+        num_files_added:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Num Files Added
+        num_files_deleted:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Num Files Deleted
+        num_files_restored:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Num Files Restored
+        num_folders_added:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Num Folders Added
+        num_tables_deleted:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Num Tables Deleted
+        num_tables_failed:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Num Tables Failed
+        num_tables_restored:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Num Tables Restored
+        num_tables_skipped:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Num Tables Skipped
+        passed_dry_run:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Passed Dry Run
+        restore_db:
+          title: Restore Db
+          type: boolean
         restore_hash:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Restore Hash
-          type: string
         restore_point:
           format: date-time
           title: Restore Point
           type: string
-        started:
-          format: date-time
-          title: Started
-          type: string
+        restore_wp_content:
+          title: Restore Wp Content
+          type: boolean
+        site_live:
+          $ref: '#/components/schemas/SiteLive'
         tables_deleted:
+          default: []
           items:
             type: string
           title: Tables Deleted
           type: array
         tables_failed:
+          default: []
           items:
             type: string
           title: Tables Failed
           type: array
         tables_restored:
+          default: []
           items:
             type: string
           title: Tables Restored
           type: array
         tables_skipped:
+          default: []
           items:
             type: string
           title: Tables Skipped
           type: array
       required:
+      - id
+      - site_live
       - restore_point
-      - tables_restored
-      - tables_deleted
-      - tables_failed
-      - tables_skipped
-      - new_folders
-      - files_restored
-      - files_deleted
-      - backup_point
-      - started
+      - created_at
+      - restore_db
+      - restore_wp_content
+      - delete_extra_files
       title: PITRestore
       type: object
     PITRestoreCreate:
       properties:
+        delete_extra_files:
+          default: false
+          title: Delete Extra Files
+          type: boolean
         for_stage_site:
           default: false
           title: For Stage Site
+          type: boolean
+        restore_db:
+          default: true
+          title: Restore Db
           type: boolean
         restore_point:
           format: date-time
           title: Restore Point
           type: string
+        restore_wp_content:
+          default: true
+          title: Restore Wp Content
+          type: boolean
       required:
       - restore_point
       title: PITRestoreCreate
@@ -735,42 +893,66 @@ components:
     Plan:
       properties:
         additional_sites:
+          anyOf:
+          - type: integer
+          - type: 'null'
           default: 0
           title: Additional Sites
-          type: integer
-        bandwidth_usage:
-          title: Bandwidth Usage
-          type: integer
         cancel_at_period_end:
           title: Cancel At Period End
           type: boolean
+        cancelled_at:
+          anyOf:
+          - format: date-time
+            type: string
+          - type: 'null'
+          title: Cancelled At
         coupon:
-          $ref: '#/components/schemas/Coupon'
+          anyOf:
+          - $ref: '#/components/schemas/Coupon'
+          - type: 'null'
         created_at:
           format: date-time
           title: Created At
           type: string
         currency:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Currency
-          type: string
+        current_cycle_bandwidth:
+          title: Current Cycle Bandwidth
+          type: integer
         current_cycle_visits:
           title: Current Cycle Visits
           type: integer
         cycle_end:
-          format: date-time
+          anyOf:
+          - format: date-time
+            type: string
+          - type: 'null'
           title: Cycle End
-          type: string
-        ends:
-          format: date-time
-          title: Ends
-          type: string
+        cycle_start:
+          anyOf:
+          - format: date-time
+            type: string
+          - type: 'null'
+          title: Cycle Start
         id:
           format: uuid4
           title: Id
           type: string
         interval:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Interval
-          type: string
+        is_active:
+          title: Is Active
+          type: boolean
+        is_default:
+          title: Is Default
+          type: boolean
         plan_type:
           title: Plan Type
           type: object
@@ -784,16 +966,12 @@ components:
           title: Storage Usage Percentage
           type: integer
         sub_id:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Sub Id
-          type: string
-        team_id:
-          format: uuid4
-          title: Team Id
-          type: string
-        trial_ends_at:
-          format: date-time
-          title: Trial Ends At
-          type: string
+        user:
+          $ref: '#/components/schemas/UserLimited'
         user_id:
           format: uuid4
           title: User Id
@@ -804,58 +982,44 @@ components:
       required:
       - id
       - user_id
+      - user
       - plan_type_name
+      - sub_id
+      - interval
+      - currency
       - cancel_at_period_end
+      - coupon
       - created_at
-      - ends
       - current_cycle_visits
       - storage_usage
-      - bandwidth_usage
+      - current_cycle_bandwidth
+      - cycle_start
+      - cycle_end
       - plan_type
       - visits_usage_percentage
       - storage_usage_percentage
+      - is_active
+      - cancelled_at
+      - is_default
       title: Plan
       type: object
-    PlanCreate:
+    PlanName:
+      enum:
+      - micro
+      - starter
+      - business
+      title: PlanName
+      type: string
+    PostHogProxyParams:
+      examples:
+      - query_params_json: '{"name":"Pageview count","derived_name":"Pageview count","description":"","filters":{"insight":"TRENDS","entity_type":"events","events":[{"type":"events","id":"$pageview","order":0,"name":"$pageview","math":"total"}],"interval":"day","display":"ActionsLineGraph"},"query":null,"saved":true,"tags":[]}'
       properties:
-        additional_sites:
-          default: 0
-          title: Additional Sites
-          type: integer
-        id:
-          default: c160dafc-53df-4a66-88af-84e257a93c82
-          format: uuid4
-          title: Id
-          type: string
-        interval:
-          default: month
-          title: Interval
-          type: string
-        new_team_name:
-          default: Default Team
-          title: New Team Name
-          type: string
-        plan_type_name:
-          default: starter
-          title: Plan Type Name
-          type: string
-      title: PlanCreate
-      type: object
-    PlanUpdate:
-      properties:
-        additional_sites:
-          title: Additional Sites
-          type: integer
-        cancel_at_period_end:
-          title: Cancel At Period End
-          type: boolean
-        interval:
-          title: Interval
-          type: string
-        plan_type_name:
-          title: Plan Type Name
-          type: string
-      title: PlanUpdate
+        query_params_json:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Query Params Json
+      title: PostHogProxyParams
       type: object
     Region:
       properties:
@@ -898,8 +1062,10 @@ components:
     ShopifyStore:
       properties:
         blog_url:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Blog Url
-          type: string
         created_at:
           format: date-time
           title: Created At
@@ -907,38 +1073,32 @@ components:
         id:
           title: Id
           type: integer
-        plan:
-          $ref: '#/components/schemas/Plan'
-        plan_id:
-          format: uuid4
-          title: Plan Id
-          type: string
         shop_url:
           title: Shop Url
           type: string
         site_live:
-          $ref: '#/components/schemas/SiteLive'
-        wants_plan:
-          title: Wants Plan
-          type: boolean
+          anyOf:
+          - $ref: '#/components/schemas/SiteLive'
+          - type: 'null'
       required:
       - id
       - shop_url
-      - wants_plan
       - created_at
       title: ShopifyStore
       type: object
     ShopifyStoreUpdate:
       properties:
         blog_url:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Blog Url
-          type: string
-        path:
-          title: Path
-          type: string
-        wants_plan:
-          title: Wants Plan
-          type: boolean
+        site_live_id:
+          anyOf:
+          - format: uuid4
+            type: string
+          - type: 'null'
+          title: Site Live Id
       title: ShopifyStoreUpdate
       type: object
     SiteLive:
@@ -947,15 +1107,13 @@ components:
           title: Active
           type: boolean
         busy:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Busy
-          type: string
         code_server_enabled:
           title: Code Server Enabled
           type: boolean
-        code_server_last_used:
-          format: date-time
-          title: Code Server Last Used
-          type: string
         code_server_password:
           title: Code Server Password
           type: string
@@ -964,10 +1122,21 @@ components:
           title: Created At
           type: string
         created_by:
-          $ref: '#/components/schemas/app__schemas__site_live__UserLimited'
-        dkim_key:
-          title: Dkim Key
+          $ref: '#/components/schemas/UserLimited'
+        current_cycle_visits:
+          title: Current Cycle Visits
+          type: integer
+        current_storage:
+          title: Current Storage
+          type: integer
+        db_prefix:
+          title: Db Prefix
           type: string
+        dkim_key:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Dkim Key
         domain_option:
           title: Domain Option
           type: string
@@ -976,12 +1145,17 @@ components:
             $ref: '#/components/schemas/ExternalPath'
           title: External Paths
           type: array
+        favicon_url:
+          title: Favicon Url
+          type: string
         fqdn:
           title: Fqdn
           type: string
         git_url:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Git Url
-          type: string
         http_auth_enabled:
           title: Http Auth Enabled
           type: boolean
@@ -992,13 +1166,20 @@ components:
           format: uuid4
           title: Id
           type: string
+        is_free:
+          title: Is Free
+          type: boolean
+        is_sleeping:
+          title: Is Sleeping
+          type: boolean
         is_testing:
           title: Is Testing
           type: boolean
-        last_sync:
-          format: date-time
-          title: Last Sync
-          type: string
+        last_sync_hash:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Last Sync Hash
         max_restore_point:
           format: date-time
           title: Max Restore Point
@@ -1014,7 +1195,9 @@ components:
           title: Region Id
           type: integer
         site_stage:
-          $ref: '#/components/schemas/app__models__site__SiteStage'
+          anyOf:
+          - $ref: '#/components/schemas/app__models__site__SiteStage'
+          - type: 'null'
         team:
           $ref: '#/components/schemas/Team'
         team_id:
@@ -1025,11 +1208,15 @@ components:
           title: Tenant Id
           type: string
         tracked_tables:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Tracked Tables
-          type: string
         untracked_tables:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Untracked Tables
-          type: string
         user_id:
           format: uuid4
           title: User Id
@@ -1040,15 +1227,26 @@ components:
       - fqdn
       - region_id
       - active
+      - busy
       - team_id
       - team
       - code_server_password
-      - code_server_last_used
       - code_server_enabled
+      - current_cycle_visits
+      - current_storage
       - max_restore_point
       - min_restore_point
+      - tracked_tables
+      - is_free
+      - untracked_tables
+      - db_prefix
+      - dkim_key
+      - git_url
+      - site_stage
       - http_auth_password
+      - favicon_url
       - http_auth_enabled
+      - is_sleeping
       - tenant_id
       - created_at
       - properties
@@ -1064,19 +1262,30 @@ components:
           title: Fqdn
           type: string
         git_url:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Git Url
-          type: string
+        is_free:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          default: false
+          title: Is Free
         region_name:
-          default: westus2
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Region Name
-          type: string
         team_id:
           format: uuid4
           title: Team Id
           type: string
         template_name:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Template Name
-          type: string
         wordpress_blog_name:
           title: Wordpress Blog Name
           type: string
@@ -1109,67 +1318,67 @@ components:
     SiteLiveUpdate:
       properties:
         cf_dev_mode_enabled:
+          anyOf:
+          - type: boolean
+          - type: 'null'
           title: Cf Dev Mode Enabled
-          type: boolean
         cf_firewall_allowed_ips:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Cf Firewall Allowed Ips
-          type: string
         cf_firewall_enabled:
+          anyOf:
+          - type: boolean
+          - type: 'null'
           title: Cf Firewall Enabled
-          type: boolean
-        fqdn:
-          title: Fqdn
-          type: string
         git_url:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Git Url
-          type: string
         http_auth_enabled:
+          anyOf:
+          - type: boolean
+          - type: 'null'
           title: Http Auth Enabled
-          type: boolean
+        is_free:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Is Free
+        new_fqdn:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: New Fqdn
         team_id:
-          format: uuid4
+          anyOf:
+          - format: uuid4
+            type: string
+          - type: 'null'
           title: Team Id
-          type: string
       title: SiteLiveUpdate
       type: object
     SiteStageCreate:
       properties:
-        git_branch:
-          title: Git Branch
-          type: string
+        git_staging_branch:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Git Staging Branch
         restore_point:
-          format: date-time
+          anyOf:
+          - format: date-time
+            type: string
+          - type: 'null'
           title: Restore Point
-          type: string
         subdomain:
           title: Subdomain
           type: string
       required:
       - subdomain
       title: SiteStageCreate
-      type: object
-    Tag:
-      properties:
-        id:
-          format: uuid4
-          title: Id
-          type: string
-        name:
-          title: Name
-          type: string
-      required:
-      - name
-      - id
-      title: Tag
-      type: object
-    TagCreate:
-      properties:
-        name:
-          title: Name
-          type: string
-      required:
-      - name
-      title: TagCreate
       type: object
     Team:
       properties:
@@ -1178,8 +1387,10 @@ components:
           title: Created At
           type: string
         grafana_org_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
           title: Grafana Org Id
-          type: integer
         id:
           format: uuid4
           title: Id
@@ -1194,20 +1405,29 @@ components:
           title: Plan Id
           type: string
         posthog_team_id:
+          anyOf:
+          - type: integer
+          - type: 'null'
           title: Posthog Team Id
-          type: integer
         tenant_id:
           title: Tenant Id
           type: string
         timezone:
           title: Timezone
           type: string
+        user_id:
+          format: uuid4
+          title: User Id
+          type: string
       required:
-      - name
       - id
+      - grafana_org_id
+      - posthog_team_id
       - tenant_id
       - plan_id
+      - user_id
       - plan
+      - name
       - timezone
       - created_at
       title: Team
@@ -1225,12 +1445,15 @@ components:
         level:
           title: Level
           type: integer
+        role:
+          title: Role
+          type: string
         team_id:
           format: uuid4
           title: Team Id
           type: string
         user:
-          $ref: '#/components/schemas/app__schemas__user__UserLimited'
+          $ref: '#/components/schemas/UserLimited'
         user_id:
           format: uuid4
           title: User Id
@@ -1240,6 +1463,7 @@ components:
       - user_id
       - team_id
       - level
+      - role
       - joined_at
       - user
       title: TeamMember
@@ -1251,10 +1475,14 @@ components:
           title: Created At
           type: string
         created_by:
-          $ref: '#/components/schemas/app__schemas__user__UserLimited'
+          anyOf:
+          - $ref: '#/components/schemas/UserLimited'
+          - type: 'null'
         first_name:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: First Name
-          type: string
         id:
           format: uuid4
           title: Id
@@ -1274,8 +1502,10 @@ components:
           title: First Name
           type: string
         message:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Message
-          type: string
         target_email:
           title: Target Email
           type: string
@@ -1287,94 +1517,25 @@ components:
     TeamUpdate:
       properties:
         name:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Name
-          type: string
         timezone:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Timezone
-          type: string
       required:
       - name
+      - timezone
       title: TeamUpdate
       type: object
     Template:
       properties:
         approved:
           title: Approved
-          type: string
-        full_description:
-          title: Full Description
-          type: string
-        id:
-          title: Id
-          type: integer
-        name:
-          title: Name
-          type: string
-        plugins:
-          title: Plugins
-          type: string
-        quickstart:
-          title: Quickstart
-          type: string
-        short_description:
-          title: Short Description
-          type: string
-        tag:
-          title: Tag
-          type: string
-        wpress_url:
-          title: Wpress Url
-          type: string
-      required:
-      - id
-      - name
-      - short_description
-      - full_description
-      - plugins
-      - quickstart
-      - tag
-      - approved
-      - wpress_url
-      title: Template
-      type: object
-    TemplateCreate:
-      properties:
-        full_description:
-          title: Full Description
-          type: string
-        name:
-          title: Name
-          type: string
-        plugins:
-          title: Plugins
-          type: string
-        quickstart:
-          title: Quickstart
-          type: string
-        short_description:
-          title: Short Description
-          type: string
-        tag:
-          title: Tag
-          type: string
-        wpress_url:
-          title: Wpress Url
-          type: string
-      required:
-      - name
-      - short_description
-      - full_description
-      - plugins
-      - quickstart
-      - wpress_url
-      - tag
-      title: TemplateCreate
-      type: object
-    Ticket:
-      properties:
-        category:
-          title: Category
-          type: string
+          type: boolean
         created_at:
           format: date-time
           title: Created At
@@ -1385,15 +1546,145 @@ components:
         id:
           title: Id
           type: integer
+        name:
+          title: Name
+          type: string
+        plugins:
+          anyOf:
+          - type: string
+          - type: 'null'
+          default: ''
+          title: Plugins
+        readme:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Readme
+        tag:
+          $ref: '#/components/schemas/TemplateTag'
+        url:
+          format: uri
+          maxLength: 2083
+          minLength: 1
+          title: Url
+          type: string
+        user_id:
+          anyOf:
+          - format: uuid4
+            type: string
+          - type: 'null'
+          title: User Id
+      required:
+      - id
+      - name
+      - description
+      - tag
+      - approved
+      - url
+      - created_at
+      title: Template
+      type: object
+    TemplateCreate:
+      properties:
+        description:
+          title: Description
+          type: string
+        is_public:
+          title: Is Public
+          type: boolean
+        name:
+          title: Name
+          type: string
+        tag:
+          $ref: '#/components/schemas/TemplateTag'
+        theme:
+          title: Theme
+          type: string
+        url:
+          format: uri
+          maxLength: 2083
+          minLength: 1
+          title: Url
+          type: string
+      required:
+      - description
+      - name
+      - theme
+      - url
+      - tag
+      - is_public
+      title: TemplateCreate
+      type: object
+    TemplateTag:
+      enum:
+      - business
+      - blog
+      - portfolio
+      - other
+      title: TemplateTag
+      type: string
+    TemplateUpdate:
+      properties:
+        description:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Description
+        is_public:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Is Public
+        tag:
+          anyOf:
+          - $ref: '#/components/schemas/TemplateTag'
+          - type: 'null'
+        url:
+          anyOf:
+          - format: uri
+            maxLength: 2083
+            minLength: 1
+            type: string
+          - type: 'null'
+          title: Url
+      title: TemplateUpdate
+      type: object
+    Ticket:
+      properties:
+        category:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Category
+        created_at:
+          format: date-time
+          title: Created At
+          type: string
+        description:
+          title: Description
+          type: string
+        id:
+          format: uuid4
+          title: Id
+          type: string
+        is_openai_thread:
+          title: Is Openai Thread
+          type: boolean
         resolved:
           title: Resolved
           type: boolean
         resolved_at:
-          format: date-time
+          anyOf:
+          - format: date-time
+            type: string
+          - type: 'null'
           title: Resolved At
-          type: string
         subject:
           title: Subject
+          type: string
+        team_id:
+          format: uuid4
+          title: Team Id
           type: string
         ticket_replies:
           items:
@@ -1401,18 +1692,23 @@ components:
           title: Ticket Replies
           type: array
       required:
-      - subject
       - id
+      - team_id
+      - subject
+      - description
       - resolved
       - created_at
       - ticket_replies
+      - is_openai_thread
       title: Ticket
       type: object
     TicketCreate:
       properties:
         category:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Category
-          type: string
         description:
           title: Description
           type: string
@@ -1421,17 +1717,27 @@ components:
           title: Resolved
           type: boolean
         s3_object:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: S3 Object
-          type: string
         site_live_id:
-          format: uuid4
+          anyOf:
+          - format: uuid4
+            type: string
+          - type: 'null'
           title: Site Live Id
-          type: string
         subject:
           title: Subject
           type: string
+        team_id:
+          format: uuid4
+          title: Team Id
+          type: string
       required:
+      - team_id
       - subject
+      - description
       title: TicketCreate
       type: object
     TicketReply:
@@ -1441,35 +1747,68 @@ components:
           title: Created At
           type: string
         description:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Description
-          type: string
         id:
+          format: uuid4
           title: Id
-          type: integer
+          type: string
+        is_gpt_chat_message:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          title: Is Gpt Chat Message
+        openai_message_id:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Openai Message Id
         resolve:
+          anyOf:
+          - type: boolean
+          - type: 'null'
           title: Resolve
-          type: boolean
         user:
-          $ref: '#/components/schemas/app__schemas__user__UserLimited'
+          $ref: '#/components/schemas/UserLimited'
       required:
       - id
+      - openai_message_id
       - created_at
       - user
+      - is_gpt_chat_message
       title: TicketReply
       type: object
     TicketReplyCreate:
       properties:
         description:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Description
-          type: string
+        is_gpt_chat_message:
+          anyOf:
+          - type: boolean
+          - type: 'null'
+          default: false
+          title: Is Gpt Chat Message
         resolve:
+          anyOf:
+          - type: boolean
+          - type: 'null'
           title: Resolve
-          type: boolean
       title: TicketReplyCreate
       type: object
     UserAffiliate:
-      description: Base User model.
       properties:
+        affiliate_payouts:
+          items:
+            anyOf:
+            - $ref: '#/components/schemas/AffiliatePayout'
+            - {}
+          title: Affiliate Payouts
+          type: array
         created_at:
           format: date-time
           title: Created At
@@ -1479,7 +1818,12 @@ components:
           title: Email
           type: string
         first_name:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: First Name
+        full_name:
+          title: Full Name
           type: string
         id:
           format: uuid4
@@ -1489,6 +1833,9 @@ components:
           default: true
           title: Is Active
           type: boolean
+        is_payment_verified:
+          title: Is Payment Verified
+          type: boolean
         is_superuser:
           default: false
           title: Is Superuser
@@ -1497,123 +1844,21 @@ components:
           default: false
           title: Is Verified
           type: boolean
-        payouts:
-          items:
-            $ref: '#/components/schemas/AffiliatePayout'
-          title: Payouts
-          type: array
         referral_url:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Referral Url
-          type: string
       required:
       - id
       - email
+      - full_name
+      - first_name
       - created_at
-      - payouts
+      - is_payment_verified
+      - referral_url
+      - affiliate_payouts
       title: UserAffiliate
-      type: object
-    UserCreate:
-      properties:
-        address:
-          title: Address
-          type: string
-        address2:
-          title: Address2
-          type: string
-        city:
-          title: City
-          type: string
-        country:
-          title: Country
-          type: string
-        email:
-          format: email
-          title: Email
-          type: string
-        full_name:
-          title: Full Name
-          type: string
-        initial_team_name:
-          default: Default Team
-          title: Initial Team Name
-          type: string
-        is_active:
-          default: true
-          title: Is Active
-          type: boolean
-        is_superuser:
-          default: false
-          title: Is Superuser
-          type: boolean
-        is_verified:
-          default: false
-          title: Is Verified
-          type: boolean
-        password:
-          title: Password
-          type: string
-        phone_number:
-          title: Phone Number
-          type: string
-        post_code:
-          title: Post Code
-          type: string
-        referral_source:
-          title: Referral Source
-          type: string
-        state:
-          title: State
-          type: string
-      required:
-      - email
-      - password
-      title: UserCreate
-      type: object
-    UserEmail:
-      properties:
-        address:
-          title: Address
-          type: string
-        created_at:
-          format: date-time
-          title: Created At
-          type: string
-        forward_to_email:
-          title: Forward To Email
-          type: string
-        is_catchall:
-          default: false
-          title: Is Catchall
-          type: boolean
-      required:
-      - address
-      - created_at
-      title: UserEmail
-      type: object
-    UserEmailCreate:
-      properties:
-        forward_to_email:
-          title: Forward To Email
-          type: string
-        local_part:
-          title: Local Part
-          type: string
-        password:
-          title: Password
-          type: string
-      required:
-      - local_part
-      title: UserEmailCreate
-      type: object
-    UserEmailUpdate:
-      properties:
-        is_catchall:
-          title: Is Catchall
-          type: boolean
-        password:
-          title: Password
-          type: string
-      title: UserEmailUpdate
       type: object
     UserEvent:
       properties:
@@ -1625,27 +1870,35 @@ components:
           title: Created At
           type: string
         description:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Description
-          type: string
         detail:
           title: Detail
           type: object
         event_type:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Event Type
-          type: string
-        finished:
-          format: date-time
-          title: Finished
-          type: string
+        finished_at:
+          anyOf:
+          - format: date-time
+            type: string
+          - type: 'null'
+          title: Finished At
         fqdn:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Fqdn
-          type: string
         id:
           format: uuid4
           title: Id
           type: string
         item_id:
-          default: 32
+          default: 1
           title: Item Id
           type: integer
         scope:
@@ -1653,19 +1906,25 @@ components:
           title: Scope
           type: string
         site_live_id:
-          format: uuid4
+          anyOf:
+          - format: uuid4
+            type: string
+          - type: 'null'
           title: Site Live Id
-          type: string
         unread:
           default: false
           title: Unread
           type: boolean
         user:
-          $ref: '#/components/schemas/app__schemas__user__UserLimited'
+          anyOf:
+          - $ref: '#/components/schemas/UserLimited'
+          - type: 'null'
         user_id:
-          format: uuid4
+          anyOf:
+          - format: uuid4
+            type: string
+          - type: 'null'
           title: User Id
-          type: string
       required:
       - activity
       - id
@@ -1673,37 +1932,92 @@ components:
       - created_at
       title: UserEvent
       type: object
+    UserLimited:
+      properties:
+        created_at:
+          format: date-time
+          title: Created At
+          type: string
+        email:
+          format: email
+          title: Email
+          type: string
+        first_name:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: First Name
+        full_name:
+          title: Full Name
+          type: string
+        id:
+          format: uuid4
+          title: Id
+          type: string
+        is_active:
+          default: true
+          title: Is Active
+          type: boolean
+        is_payment_verified:
+          title: Is Payment Verified
+          type: boolean
+        is_superuser:
+          default: false
+          title: Is Superuser
+          type: boolean
+        is_verified:
+          default: false
+          title: Is Verified
+          type: boolean
+      required:
+      - id
+      - email
+      - full_name
+      - first_name
+      - created_at
+      - is_payment_verified
+      title: UserLimited
+      type: object
     UserRead:
-      description: Base User model.
       properties:
         address:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Address
-          type: string
         address2:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Address2
-          type: string
-        affiliate_payouts:
-          items:
-            $ref: '#/components/schemas/AffiliatePayout'
-          title: Affiliate Payouts
-          type: array
         balance:
           title: Balance
           type: integer
         bitbucket_token:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Bitbucket Token
-          type: string
         bitbucket_user:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Bitbucket User
-          type: string
+        bitbucket_workspace:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Bitbucket Workspace
         city:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: City
-          type: string
         country:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Country
-          type: string
-        coupon:
-          $ref: '#/components/schemas/Coupon'
         default_region_id:
           title: Default Region Id
           type: integer
@@ -1712,17 +2026,25 @@ components:
           title: Email
           type: string
         first_name:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: First Name
-          type: string
         full_name:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Full Name
-          type: string
-        github_app_user:
-          title: Github App User
-          type: string
+        github_user:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Github User
         gitlab_user:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Gitlab User
-          type: string
         has_password:
           title: Has Password
           type: boolean
@@ -1734,6 +2056,9 @@ components:
           default: true
           title: Is Active
           type: boolean
+        is_free_site_available:
+          title: Is Free Site Available
+          type: boolean
         is_superuser:
           default: false
           title: Is Superuser
@@ -1743,11 +2068,15 @@ components:
           title: Is Verified
           type: boolean
         phone_number:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Phone Number
-          type: string
         post_code:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Post Code
-          type: string
         ref_code:
           title: Ref Code
           type: string
@@ -1757,96 +2086,157 @@ components:
           title: Shopify Stores
           type: array
         signed_up_with:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Signed Up With
-          type: string
         state:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: State
-          type: string
-        teams_member:
-          items:
-            $ref: '#/components/schemas/Team'
-          title: Teams Member
-          type: array
         teams_owned:
           items:
             $ref: '#/components/schemas/Team'
           title: Teams Owned
           type: array
         tfa:
+          anyOf:
+          - type: integer
+          - type: 'null'
           title: Tfa
-          type: integer
       required:
       - id
       - email
+      - full_name
+      - first_name
       - default_region_id
+      - phone_number
+      - tfa
+      - signed_up_with
+      - address
+      - address2
+      - country
+      - state
       - teams_owned
-      - teams_member
+      - city
+      - post_code
+      - github_user
+      - gitlab_user
+      - bitbucket_user
+      - bitbucket_token
+      - bitbucket_workspace
       - shopify_stores
       - balance
       - ref_code
-      - affiliate_payouts
+      - is_free_site_available
       - has_password
       title: UserRead
       type: object
     UserUpdate:
       properties:
         active_coupon_id:
-          format: uuid4
+          anyOf:
+          - format: uuid4
+            type: string
+          - type: 'null'
           title: Active Coupon Id
-          type: string
         address:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Address
-          type: string
         address2:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Address2
-          type: string
         bitbucket_token:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Bitbucket Token
-          type: string
         bitbucket_user:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Bitbucket User
-          type: string
+        bitbucket_workspace:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Bitbucket Workspace
         city:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: City
-          type: string
         country:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Country
-          type: string
         default_region_id:
-          default: 1
+          anyOf:
+          - type: integer
+          - type: 'null'
           title: Default Region Id
-          type: integer
         email:
-          format: email
+          anyOf:
+          - format: email
+            type: string
+          - type: 'null'
           title: Email
-          type: string
         full_name:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Full Name
-          type: string
         is_active:
+          anyOf:
+          - type: boolean
+          - type: 'null'
           title: Is Active
-          type: boolean
         is_superuser:
+          anyOf:
+          - type: boolean
+          - type: 'null'
           title: Is Superuser
-          type: boolean
         is_verified:
+          anyOf:
+          - type: boolean
+          - type: 'null'
           title: Is Verified
-          type: boolean
         password:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Password
-          type: string
         phone_number:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Phone Number
-          type: string
         post_code:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Post Code
-          type: string
         state:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: State
-          type: string
         tfa:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Tfa
-          type: integer
+        tfa_code:
+          anyOf:
+          - type: integer
+          - type: 'null'
+          title: Tfa Code
       title: UserUpdate
       type: object
     ValidationError:
@@ -1870,23 +2260,68 @@ components:
       - type
       title: ValidationError
       type: object
-    app__api__apple_oauth__OAuth2AuthorizeResponse:
+    WPProxyParams:
+      examples:
+      - fqdn: www.mywordpresssite.com
+        query_params_json: '{"title":"Meet Spot: A Lovable Pup","content":"Spot is
+          an adorable, energetic dog who loves to play fetch and run in the park.
+          Every day is an adventure with Spot, from chasing butterflies to exploring
+          new trails. His bright eyes and wagging tail bring joy to everyone he meets."}'
       properties:
-        authorization_url:
-          title: Authorization Url
+        fqdn:
+          title: Fqdn
           type: string
+        query_params_json:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Query Params Json
       required:
-      - authorization_url
-      title: OAuth2AuthorizeResponse
+      - fqdn
+      title: WPProxyParams
       type: object
-    app__api__shopify_oauth__OAuth2AuthorizeResponse:
+    app__models__site__ApplicationPassword:
+      description: Exposed in API
       properties:
-        authorization_url:
-          title: Authorization Url
+        created_at:
+          format: date-time
+          title: Created At
           type: string
+        fqdn:
+          title: Fqdn
+          type: string
+        id:
+          format: uuid4
+          title: Id
+          type: string
+        password:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Password
+        team_id:
+          anyOf:
+          - format: uuid4
+            type: string
+          - type: 'null'
+          title: Team Id
+        user_id:
+          anyOf:
+          - format: uuid4
+            type: string
+          - type: 'null'
+          title: User Id
+        username:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Username
       required:
-      - authorization_url
-      title: OAuth2AuthorizeResponse
+      - fqdn
+      - user_id
+      - team_id
+      - created_at
+      title: ApplicationPassword
       type: object
     app__models__site__SiteStage:
       description: Exposed in API
@@ -1910,8 +2345,10 @@ components:
           title: Fqdn
           type: string
         git_branch:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Git Branch
-          type: string
         http_auth_enabled:
           default: false
           title: Http Auth Enabled
@@ -1920,16 +2357,22 @@ components:
           format: uuid4
           title: Id
           type: string
-        last_sync:
-          format: date-time
-          title: Last Sync
-          type: string
         last_sync_hash:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Last Sync Hash
-          type: string
+        last_synced_at:
+          anyOf:
+          - format: date-time
+            type: string
+          - type: 'null'
+          title: Last Synced At
         pod_name:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Pod Name
-          type: string
         site_live_id:
           format: uuid4
           title: Site Live Id
@@ -1945,45 +2388,25 @@ components:
       - domain
       - tld
       - fqdn
+      - pod_name
       - site_live_id
       - created_by_id
+      - created_at
+      - last_synced_at
       title: SiteStage
       type: object
-    app__schemas__site_live__UserLimited:
-      description: Base User model.
+    app__schemas__application_password__ApplicationPassword:
       properties:
-        created_at:
-          format: date-time
-          title: Created At
+        fqdn:
+          title: Fqdn
           type: string
-        email:
-          format: email
-          title: Email
+        username:
+          title: Username
           type: string
-        first_name:
-          title: First Name
-          type: string
-        id:
-          format: uuid4
-          title: Id
-          type: string
-        is_active:
-          default: true
-          title: Is Active
-          type: boolean
-        is_superuser:
-          default: false
-          title: Is Superuser
-          type: boolean
-        is_verified:
-          default: false
-          title: Is Verified
-          type: boolean
       required:
-      - id
-      - email
-      - created_at
-      title: UserLimited
+      - fqdn
+      - username
+      title: ApplicationPassword
       type: object
     app__schemas__site_stage__SiteStage:
       properties:
@@ -1995,66 +2418,20 @@ components:
           title: Fqdn
           type: string
         git_branch:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Git Branch
-          type: string
         id:
           format: uuid4
           title: Id
           type: string
-        last_sync:
-          format: date-time
-          title: Last Sync
-          type: string
       required:
       - id
+      - git_branch
       - fqdn
       - created_at
       title: SiteStage
-      type: object
-    app__schemas__user__UserLimited:
-      description: Base User model.
-      properties:
-        created_at:
-          format: date-time
-          title: Created At
-          type: string
-        email:
-          format: email
-          title: Email
-          type: string
-        first_name:
-          title: First Name
-          type: string
-        id:
-          format: uuid4
-          title: Id
-          type: string
-        is_active:
-          default: true
-          title: Is Active
-          type: boolean
-        is_superuser:
-          default: false
-          title: Is Superuser
-          type: boolean
-        is_verified:
-          default: false
-          title: Is Verified
-          type: boolean
-      required:
-      - id
-      - email
-      - created_at
-      title: UserLimited
-      type: object
-    fastapi_users__router__oauth__OAuth2AuthorizeResponse:
-      properties:
-        authorization_url:
-          title: Authorization Url
-          type: string
-      required:
-      - authorization_url
-      title: OAuth2AuthorizeResponse
       type: object
   securitySchemes:
     APIKeyCookie:
@@ -2073,103 +2450,6 @@ info:
   version: 0.1.0
 openapi: 3.1.0
 paths:
-  /f/api/v1/account/add_card:
-    post:
-      description: 'Add a user''s credit card on stripe, also creates stripe id if
-        none
-
-        Returns stripe PaymentMethod json
-
-        {''id'': ''pm_1LiDdfE1wBFoWWXEKJQtRScx'', ''object'': ''payment_method'',
-        ''billing_details'': {''address'': {''city'': None, ''country'': None, ''line1'':
-        None, ''line2'': None, ''postal_code'': ''42424'', ''state'': None}, ''email'':
-        None, ''name'': None, ''phone'': None}, ''card'': {''brand'': ''visa'', ''checks'':
-        {''address_line1_check'': None, ''address_postal_code_check'': None, ''cvc_check'':
-        None}, ''country'': ''US'', ''exp_month'': 4, ''exp_year'': 2024, ''funding'':
-        ''credit'', ''generated_from'': None, ''last4'': ''4242'', ''networks'': {''available'':
-        [''visa''], ''preferred'': None}, ''three_d_secure_usage'': {''supported'':
-        True}, ''wallet'': None}, ''created'': 1663231300, ''customer'': None, ''livemode'':
-        False, ''type'': ''card''}'
-      operationId: add_card_response
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Add Card Response
-      tags:
-      - account
-      - account
-  /f/api/v1/account/add_coupon:
-    post:
-      description: Add a user stripe coupon
-      operationId: add_coupon
-      parameters:
-      - in: query
-        name: coupon_code
-        required: true
-        schema:
-          title: Coupon Code
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Coupon'
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Add Coupon
-      tags:
-      - account
-      - account
-  /f/api/v1/account/delete-account-forever:
-    delete:
-      description: 'Info: Deletes all of a user''s data
-
-        Returns: json'
-      operationId: delete_account_forever
-      parameters:
-      - in: query
-        name: email
-        required: true
-        schema:
-          title: Email
-          type: string
-      - in: query
-        name: password
-        required: true
-        schema:
-          title: Password
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Delete Account Forever
-      tags:
-      - account
-      - account
   /f/api/v1/account/get_balance_transactions:
     get:
       description: Get your credit balances from affiliate payments or promos
@@ -2185,7 +2465,6 @@ paths:
       - APIKeyCookie: []
       summary: Get your balances notes
       tags:
-      - account
       - account
   /f/api/v1/account/get_tax:
     get:
@@ -2203,7 +2482,6 @@ paths:
       summary: Get tax
       tags:
       - account
-      - account
   /f/api/v1/account/git_repos:
     get:
       description: Get the data for your linked GitHub/GitLab/Bitbucket repositories
@@ -2220,10 +2498,9 @@ paths:
       summary: Get linked git repositories
       tags:
       - account
-      - account
   /f/api/v1/account/me:
     get:
-      operationId: users:current_user
+      operationId: users_current_user
       responses:
         '200':
           content:
@@ -2237,10 +2514,8 @@ paths:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
       summary: Users:Current User
-      tags:
-      - account
     patch:
-      operationId: users:patch_current_user
+      operationId: users_patch_current_user
       requestBody:
         content:
           application/json:
@@ -2283,104 +2558,31 @@ paths:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
       summary: Users:Patch Current User
-      tags:
-      - account
-  /f/api/v1/account/payment_method:
-    get:
-      description: Get your payment methods
-      operationId: get_payment_methods
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON list of your payment methods
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Get payment methods
-      tags:
-      - account
-      - account
-  /f/api/v1/account/payment_method/{payment_method_id}:
-    delete:
-      description: Delete a non-default payment method
-      operationId: delete_payment_method
-      parameters:
-      - in: path
-        name: payment_method_id
-        required: true
-        schema:
-          title: Payment Method Id
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Delete payment method
-      tags:
-      - account
-      - account
-    patch:
-      description: Select your default payment method to charge every billing cycle
-      operationId: update_payment_method
-      parameters:
-      - in: path
-        name: payment_method_id
-        required: true
-        schema:
-          title: Payment Method Id
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Update payment method
-      tags:
-      - account
-      - account
   /f/api/v1/account/referred_user:
     get:
-      description: Retrieve data about users who have signed up using your links
+      description: Retrieve data about users who have signed up using your links.
+        Site Bot Enabled.
       operationId: get_referred_users
       parameters:
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -2402,57 +2604,31 @@ paths:
       summary: Get affiliate referrals
       tags:
       - account
-      - account
-  /f/api/v1/account/revoke_oauth/{provider}:
-    delete:
-      description: Revoke your Git OAuth permission
-      operationId: revoke_oauth
-      parameters:
-      - in: path
-        name: provider
-        required: true
-        schema:
-          title: Provider
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Revoke OAuth
-      tags:
-      - account
-      - account
   /f/api/v1/account/shopify_store:
     get:
-      description: Get events, such as restores, updates, stage creations, etc.
+      description: Get stores you have connected to your user account from Shopify
+        Link.
       operationId: shopify_stores
       parameters:
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -2473,7 +2649,6 @@ paths:
       - APIKeyCookie: []
       summary: Get Shopify Stores
       tags:
-      - account
       - account
   /f/api/v1/account/shopify_store/{id}:
     get:
@@ -2504,7 +2679,6 @@ paths:
       - APIKeyCookie: []
       summary: Get Shopify Store
       tags:
-      - account
       - account
     patch:
       description: Update a store's details
@@ -2541,10 +2715,9 @@ paths:
       summary: Update a shopify store
       tags:
       - account
-      - account
   /f/api/v1/account/{id}:
     delete:
-      operationId: users:delete_user
+      operationId: users_delete_user
       parameters:
       - in: path
         name: id
@@ -2571,10 +2744,8 @@ paths:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
       summary: Users:Delete User
-      tags:
-      - account
     get:
-      operationId: users:user
+      operationId: users_user
       parameters:
       - in: path
         name: id
@@ -2605,10 +2776,8 @@ paths:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
       summary: Users:User
-      tags:
-      - account
     patch:
-      operationId: users:patch_user
+      operationId: users_patch_user
       parameters:
       - in: path
         name: id
@@ -2662,620 +2831,53 @@ paths:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
       summary: Users:Patch User
-      tags:
-      - account
-  /f/api/v1/auth/apple/authorize:
-    get:
-      operationId: oauth:apple.cookie.authorize
-      parameters:
-      - in: query
-        name: scopes
-        required: false
-        schema:
-          items:
-            type: string
-          title: Scopes
-          type: array
-      responses:
-        '200':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/app__api__apple_oauth__OAuth2AuthorizeResponse'
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Oauth:Apple.Cookie.Authorize
-      tags:
-      - auth
-  /f/api/v1/auth/apple/callback:
+  /f/api/v1/application_password:
     post:
-      description: The response varies based on the authentication backend used.
-      operationId: oauth:apple.cookie.callback
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '400':
-          content:
-            application/json:
-              examples:
-                INVALID_STATE_TOKEN:
-                  summary: Invalid state token.
-                LOGIN_BAD_CREDENTIALS:
-                  summary: User is inactive.
-                  value:
-                    detail: LOGIN_BAD_CREDENTIALS
-              schema:
-                $ref: '#/components/schemas/ErrorModel'
-          description: Bad Request
-      summary: Oauth:Apple.Cookie.Callback
-      tags:
-      - auth
-  /f/api/v1/auth/forgot-password:
-    post:
-      operationId: reset:forgot_password
+      description: Users can add a non Site Bay hosted WordPress site.
+      operationId: create_application_password
       requestBody:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Body_reset_forgot_password_f_api_v1_auth_forgot_password_post'
-        required: true
-      responses:
-        '202':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Reset:Forgot Password
-      tags:
-      - auth
-  /f/api/v1/auth/github/authorize:
-    get:
-      operationId: oauth:github.cookie.authorize
-      parameters:
-      - in: query
-        name: scopes
-        required: false
-        schema:
-          items:
-            type: string
-          title: Scopes
-          type: array
-      responses:
-        '200':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/fastapi_users__router__oauth__OAuth2AuthorizeResponse'
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Oauth:Github.Cookie.Authorize
-      tags:
-      - auth
-  /f/api/v1/auth/github/callback:
-    get:
-      description: The response varies based on the authentication backend used.
-      operationId: oauth:github.cookie.callback
-      parameters:
-      - in: query
-        name: code
-        required: false
-        schema:
-          title: Code
-          type: string
-      - in: query
-        name: code_verifier
-        required: false
-        schema:
-          title: Code Verifier
-          type: string
-      - in: query
-        name: state
-        required: false
-        schema:
-          title: State
-          type: string
-      - in: query
-        name: error
-        required: false
-        schema:
-          title: Error
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '400':
-          content:
-            application/json:
-              examples:
-                INVALID_STATE_TOKEN:
-                  summary: Invalid state token.
-                LOGIN_BAD_CREDENTIALS:
-                  summary: User is inactive.
-                  value:
-                    detail: LOGIN_BAD_CREDENTIALS
-              schema:
-                $ref: '#/components/schemas/ErrorModel'
-          description: Bad Request
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Oauth:Github.Cookie.Callback
-      tags:
-      - auth
-  /f/api/v1/auth/gitlab/authorize:
-    get:
-      operationId: oauth:gitlab.cookie.authorize
-      parameters:
-      - in: query
-        name: scopes
-        required: false
-        schema:
-          items:
-            type: string
-          title: Scopes
-          type: array
-      responses:
-        '200':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/fastapi_users__router__oauth__OAuth2AuthorizeResponse'
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Oauth:Gitlab.Cookie.Authorize
-      tags:
-      - auth
-  /f/api/v1/auth/gitlab/callback:
-    get:
-      description: The response varies based on the authentication backend used.
-      operationId: oauth:gitlab.cookie.callback
-      parameters:
-      - in: query
-        name: code
-        required: false
-        schema:
-          title: Code
-          type: string
-      - in: query
-        name: code_verifier
-        required: false
-        schema:
-          title: Code Verifier
-          type: string
-      - in: query
-        name: state
-        required: false
-        schema:
-          title: State
-          type: string
-      - in: query
-        name: error
-        required: false
-        schema:
-          title: Error
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '400':
-          content:
-            application/json:
-              examples:
-                INVALID_STATE_TOKEN:
-                  summary: Invalid state token.
-                LOGIN_BAD_CREDENTIALS:
-                  summary: User is inactive.
-                  value:
-                    detail: LOGIN_BAD_CREDENTIALS
-              schema:
-                $ref: '#/components/schemas/ErrorModel'
-          description: Bad Request
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Oauth:Gitlab.Cookie.Callback
-      tags:
-      - auth
-  /f/api/v1/auth/google/authorize:
-    get:
-      operationId: oauth:google.cookie.authorize
-      parameters:
-      - in: query
-        name: scopes
-        required: false
-        schema:
-          items:
-            type: string
-          title: Scopes
-          type: array
-      responses:
-        '200':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/fastapi_users__router__oauth__OAuth2AuthorizeResponse'
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Oauth:Google.Cookie.Authorize
-      tags:
-      - auth
-  /f/api/v1/auth/google/callback:
-    get:
-      description: The response varies based on the authentication backend used.
-      operationId: oauth:google.cookie.callback
-      parameters:
-      - in: query
-        name: code
-        required: false
-        schema:
-          title: Code
-          type: string
-      - in: query
-        name: code_verifier
-        required: false
-        schema:
-          title: Code Verifier
-          type: string
-      - in: query
-        name: state
-        required: false
-        schema:
-          title: State
-          type: string
-      - in: query
-        name: error
-        required: false
-        schema:
-          title: Error
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '400':
-          content:
-            application/json:
-              examples:
-                INVALID_STATE_TOKEN:
-                  summary: Invalid state token.
-                LOGIN_BAD_CREDENTIALS:
-                  summary: User is inactive.
-                  value:
-                    detail: LOGIN_BAD_CREDENTIALS
-              schema:
-                $ref: '#/components/schemas/ErrorModel'
-          description: Bad Request
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Oauth:Google.Cookie.Callback
-      tags:
-      - auth
-  /f/api/v1/auth/login:
-    post:
-      operationId: auth:cookie.login
-      requestBody:
-        content:
-          application/x-www-form-urlencoded:
-            schema:
-              $ref: '#/components/schemas/Body_auth_cookie_login_f_api_v1_auth_login_post'
+              $ref: '#/components/schemas/ApplicationPasswordCreate'
         required: true
       responses:
         '200':
           content:
             application/json:
-              schema: {}
-          description: Successful Response
-        '204':
-          description: No Content
-        '400':
-          content:
-            application/json:
-              examples:
-                LOGIN_BAD_CREDENTIALS:
-                  summary: Bad credentials or the user is inactive.
-                  value:
-                    detail: LOGIN_BAD_CREDENTIALS
-                LOGIN_USER_NOT_VERIFIED:
-                  summary: The user is not verified.
-                  value:
-                    detail: LOGIN_USER_NOT_VERIFIED
               schema:
-                $ref: '#/components/schemas/ErrorModel'
-          description: Bad Request
+                $ref: '#/components/schemas/app__schemas__application_password__ApplicationPassword'
+          description: Successful Response
         '422':
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
           description: Validation Error
-      summary: Auth:Cookie.Login
-      tags:
-      - account
-  /f/api/v1/auth/logout:
-    post:
-      operationId: auth:cookie.logout
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '204':
-          description: No Content
-        '401':
-          description: Missing token or inactive user.
       security:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
-      summary: Auth:Cookie.Logout
+      summary: Create Application Password
       tags:
-      - account
-  /f/api/v1/auth/register:
-    post:
-      operationId: register:register
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/UserCreate'
-        required: true
-      responses:
-        '201':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/UserRead'
-          description: Successful Response
-        '400':
-          content:
-            application/json:
-              examples:
-                REGISTER_INVALID_PASSWORD:
-                  summary: Password validation failed.
-                  value:
-                    detail:
-                      code: REGISTER_INVALID_PASSWORD
-                      reason: Password should beat least 3 characters
-                REGISTER_USER_ALREADY_EXISTS:
-                  summary: A user with this email already exists.
-                  value:
-                    detail: REGISTER_USER_ALREADY_EXISTS
-              schema:
-                $ref: '#/components/schemas/ErrorModel'
-          description: Bad Request
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Register:Register
-      tags:
-      - auth
-  /f/api/v1/auth/request-verify-token:
-    post:
-      operationId: verify:request-token
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/Body_verify_request_token_f_api_v1_auth_request_verify_token_post'
-        required: true
-      responses:
-        '202':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Verify:Request-Token
-      tags:
-      - auth
-  /f/api/v1/auth/reset-password:
-    post:
-      operationId: reset:reset_password
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/Body_reset_reset_password_f_api_v1_auth_reset_password_post'
-        required: true
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '400':
-          content:
-            application/json:
-              examples:
-                RESET_PASSWORD_BAD_TOKEN:
-                  summary: Bad or expired token.
-                  value:
-                    detail: RESET_PASSWORD_BAD_TOKEN
-                RESET_PASSWORD_INVALID_PASSWORD:
-                  summary: Password validation failed.
-                  value:
-                    detail:
-                      code: RESET_PASSWORD_INVALID_PASSWORD
-                      reason: Password should be at least 3 characters
-              schema:
-                $ref: '#/components/schemas/ErrorModel'
-          description: Bad Request
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Reset:Reset Password
-      tags:
-      - auth
-  /f/api/v1/auth/shopify/authorize:
-    get:
-      operationId: oauth:shopify.cookie.authorize
-      parameters:
-      - in: query
-        name: scopes
-        required: false
-        schema:
-          items:
-            type: string
-          title: Scopes
-          type: array
-      responses:
-        '200':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/app__api__shopify_oauth__OAuth2AuthorizeResponse'
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Oauth:Shopify.Cookie.Authorize
-      tags:
-      - auth
-  /f/api/v1/auth/shopify/callback:
-    get:
-      description: The response varies based on the authentication backend used.
-      operationId: oauth:shopify.cookie.callback
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '400':
-          content:
-            application/json:
-              examples:
-                INVALID_STATE_TOKEN:
-                  summary: Invalid state token.
-                LOGIN_BAD_CREDENTIALS:
-                  summary: User is inactive.
-                  value:
-                    detail: LOGIN_BAD_CREDENTIALS
-              schema:
-                $ref: '#/components/schemas/ErrorModel'
-          description: Bad Request
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Oauth:Shopify.Cookie.Callback
-      tags:
-      - auth
-  /f/api/v1/auth/verify:
-    post:
-      operationId: verify:verify
-      requestBody:
-        content:
-          application/json:
-            schema:
-              $ref: '#/components/schemas/Body_verify_verify_f_api_v1_auth_verify_post'
-        required: true
-      responses:
-        '200':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/UserRead'
-          description: Successful Response
-        '400':
-          content:
-            application/json:
-              examples:
-                VERIFY_USER_ALREADY_VERIFIED:
-                  summary: The user is already verified.
-                  value:
-                    detail: VERIFY_USER_ALREADY_VERIFIED
-                VERIFY_USER_BAD_TOKEN:
-                  summary: Bad token, not existing user ornot the e-mail currently
-                    set for the user.
-                  value:
-                    detail: VERIFY_USER_BAD_TOKEN
-              schema:
-                $ref: '#/components/schemas/ErrorModel'
-          description: Bad Request
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      summary: Verify:Verify
-      tags:
-      - auth
-  /f/api/v1/blog/{path}:
-    get:
-      operationId: _reverse_proxy
+      - application_password
+  /f/api/v1/application_password/{fqdn}:
+    delete:
+      description: Users can delete their application password/username for non Site
+        Bay hosted WordPress site.
+      operationId: delete_application_password
       parameters:
       - in: path
-        name: path
+        name: fqdn
         required: true
         schema:
-          title: Path
+          title: Fqdn
+          type: string
       responses:
         '200':
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/app__models__site__ApplicationPassword'
           description: Successful Response
         '422':
           content:
@@ -3283,26 +2885,60 @@ paths:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
           description: Validation Error
-      summary: ' Reverse Proxy'
+      security:
+      - OAuth2PasswordBearer: []
+      - APIKeyCookie: []
+      summary: Delete Application Password
       tags:
-      - utils
-  /f/api/v1/commento:
-    get:
-      description: Returns redirect to Commento URL
-      operationId: commento
+      - application_password
+    put:
+      description: Users can update their application password/username for non Site
+        Bay hosted WordPress site. Can proxy through the WordPress REST API for various
+        functionalities. Do not use for sites already on Site Bay.
+      operationId: update_application_password
       parameters:
-      - in: query
-        name: token
+      - in: path
+        name: fqdn
         required: true
         schema:
-          title: Token
+          title: Fqdn
           type: string
-      - in: query
-        name: hmac_str
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ApplicationPasswordUpdate'
         required: true
-        schema:
-          title: Hmac Str
-          type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/app__schemas__application_password__ApplicationPassword'
+          description: Successful Response
+        '422':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+          description: Validation Error
+      security:
+      - OAuth2PasswordBearer: []
+      - APIKeyCookie: []
+      summary: Update Application Password
+      tags:
+      - application_password
+  /f/api/v1/create_checkout_session:
+    post:
+      description: Generate a stripe checkout URL. Site Bot Enabled.
+      operationId: create_checkout_session
+      requestBody:
+        content:
+          application/json:
+            schema:
+              allOf:
+              - $ref: '#/components/schemas/CheckoutSessionRequest'
+              title: Request
       responses:
         '200':
           content:
@@ -3318,28 +2954,7 @@ paths:
       security:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
-      summary: SSO Commento connect
-      tags:
-      - utils
-  /f/api/v1/country-code:
-    get:
-      operationId: get_country_code
-      responses:
-        '307':
-          description: Successful Response
-      summary: Get Country Code
-      tags:
-      - utils
-  /f/api/v1/create-checkout-session:
-    post:
-      operationId: create_checkout_session
-      responses:
-        '307':
-          description: Successful Response
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Create Checkout Session
+      summary: Buy a plan through stripe checkout
       tags:
       - utils
   /f/api/v1/create_portal_session:
@@ -3357,22 +2972,6 @@ paths:
       summary: Customer Portal
       tags:
       - utils
-  /f/api/v1/discourse:
-    get:
-      description: Returns redirect to discourse url
-      operationId: discourse
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: SSO Discourse connect
-      tags:
-      - utils
   /f/api/v1/event:
     get:
       description: Get events, such as restores, updates, stage creations, etc.
@@ -3382,23 +2981,29 @@ paths:
         name: fqdn
         required: false
         schema:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Fqdn
-          type: string
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -3420,19 +3025,6 @@ paths:
       summary: Get User Events
       tags:
       - event
-      - event
-  /f/api/v1/files-test:
-    get:
-      operationId: files_test
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-      summary: Files Test
-      tags:
-      - utils
   /f/api/v1/get_git_sync_repos:
     get:
       description: Returns your account's linked Git Repos
@@ -3447,18 +3039,6 @@ paths:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
       summary: Verify Git Sync Directories
-      tags:
-      - utils
-  /f/api/v1/getfsval:
-    get:
-      operationId: getfsval
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-      summary: Getfsval
       tags:
       - utils
   /f/api/v1/migration:
@@ -3480,91 +3060,6 @@ paths:
       summary: Get Migrations
       tags:
       - migration
-    post:
-      description: Request a new site migration by providing your old host's domain
-        and your site's login details
-      operationId: create_migration
-      requestBody:
-        content:
-          multipart/form-data:
-            schema:
-              $ref: '#/components/schemas/Body_create_migration_f_api_v1_migration_post'
-        required: true
-      responses:
-        '201':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Migration'
-          description: Your new migration's details
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Create a migration
-      tags:
-      - migration
-  /f/api/v1/migration/{migration_id}:
-    get:
-      operationId: delete_migration
-      parameters:
-      - in: path
-        name: migration_id
-        required: true
-        schema:
-          title: Migration Id
-          type: integer
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Delete Migration
-      tags:
-      - migration
-  /f/api/v1/oauth/{provider}:
-    get:
-      description: 'Info: Gets oauth token for use with git sync
-
-        Returns: redirect'
-      operationId: oauth_redirect
-      parameters:
-      - in: path
-        name: provider
-        required: true
-        schema:
-          title: Provider
-          type: string
-      responses:
-        '307':
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Oauth Redirect
-      tags:
-      - utils
   /f/api/v1/plan:
     get:
       description: Get all your active plans
@@ -3585,71 +3080,7 @@ paths:
       summary: Get Plans
       tags:
       - plan
-    post:
-      description: Buy a new plan/team
-      operationId: create_plan
-      requestBody:
-        content:
-          application/json:
-            example:
-              additional_sites: 1
-              interval: month
-              new_team_name: Jane's WordPress Design Team
-              plan_type_name: business
-            schema:
-              allOf:
-              - $ref: '#/components/schemas/PlanCreate'
-              description: Your new plan's details
-              title: Plan In
-      responses:
-        '201':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Plan'
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Create a Plan
-      tags:
-      - plan
   /f/api/v1/plan/{plan_id}:
-    delete:
-      description: Cancel your plan, which will delete it at the end of your cycle
-      operationId: cancel_plan
-      parameters:
-      - in: path
-        name: plan_id
-        required: true
-        schema:
-          format: uuid4
-          title: Plan Id
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Cancel Plan
-      tags:
-      - plan
     get:
       description: Get a plan by its UUID
       operationId: get_plan
@@ -3680,35 +3111,34 @@ paths:
       summary: Get Plan
       tags:
       - plan
-    patch:
-      description: Upgrade or downgrade your plan
-      operationId: update_plan
+  /f/api/v1/posthog/api/projects/{team_id}/{path}:
+    delete:
+      description: Proxies DELETE requests to our PostHog API. Site Bot Enabled.
+      operationId: proxy_to_posthog_delete
       parameters:
       - in: path
-        name: plan_id
+        name: path
         required: true
         schema:
-          format: uuid4
-          title: Plan Id
+          title: Path
           type: string
+      - in: path
+        name: team_id
+        required: true
+        schema:
+          title: Team Id
+          type: integer
       requestBody:
         content:
           application/json:
-            example:
-              additional_sites: 1
-              cancel_at_period_end: false
-              plan_type_name: business
             schema:
-              allOf:
-              - $ref: '#/components/schemas/PlanUpdate'
-              description: Your updated plan's details
-              title: Plan In
+              $ref: '#/components/schemas/PostHogProxyParams'
+        required: true
       responses:
         '200':
           content:
             application/json:
-              schema:
-                $ref: '#/components/schemas/Plan'
+              schema: {}
           description: Successful Response
         '422':
           content:
@@ -3719,34 +3149,33 @@ paths:
       security:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
-      summary: Update a Plan
+      summary: Proxy To Posthog Delete
       tags:
-      - plan
-  /f/api/v1/plan/{plan_id}/preview:
+      - utils
     get:
-      description: Preview the proration change before you upgrade or downgrade your
-        plan
-      operationId: preview_change
+      description: Proxies GET requests to our PostHog API. Site Bot Enabled.
+      operationId: proxy_to_posthog_get
       parameters:
       - in: path
-        name: plan_id
+        name: team_id
         required: true
         schema:
-          format: uuid4
-          title: Plan Id
-          type: string
-      - in: query
-        name: new_plan_type_name
-        required: true
-        schema:
-          title: New Plan Type Name
-          type: string
-      - in: query
-        name: additional_sites
-        required: true
-        schema:
-          title: Additional Sites
+          title: Team Id
           type: integer
+      - in: path
+        name: path
+        required: true
+        schema:
+          title: Path
+          type: string
+      - in: query
+        name: query_params_json
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Query Params Json
       responses:
         '200':
           content:
@@ -3762,50 +3191,36 @@ paths:
       security:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
-      summary: Preview Plan
-      tags:
-      - plan
-  /f/api/v1/redirect:
-    get:
-      description: Returns your account's linked Git Repos
-      operationId: redirect_for_login
-      responses:
-        '301':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-      summary: Redirect
+      summary: Proxy To Posthog Get
       tags:
       - utils
-  /f/api/v1/redo-posthog:
     post:
-      operationId: redo_posthog
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-      summary: Redo Posthog
-      tags:
-      - utils
-  /f/api/v1/referral_code/{ref_code}:
-    get:
-      operationId: get_by_ref_code
+      description: Proxies POST requests to our PostHog API. Site Bot Enabled.
+      operationId: proxy_to_posthog_post
       parameters:
       - in: path
-        name: ref_code
+        name: path
         required: true
         schema:
-          title: Ref Code
+          title: Path
           type: string
+      - in: path
+        name: team_id
+        required: true
+        schema:
+          title: Team Id
+          type: integer
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PostHogProxyParams'
+        required: true
       responses:
         '200':
           content:
             application/json:
-              schema:
-                $ref: '#/components/schemas/app__schemas__user__UserLimited'
+              schema: {}
           description: Successful Response
         '422':
           content:
@@ -3813,12 +3228,15 @@ paths:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
           description: Validation Error
-      summary: Fetch user by referral code
+      security:
+      - OAuth2PasswordBearer: []
+      - APIKeyCookie: []
+      summary: Proxy To Posthog Post
       tags:
       - utils
   /f/api/v1/region:
     get:
-      description: Get details of all regions
+      description: Get details of all regions. Site Bot Enabled.
       operationId: get_regions
       responses:
         '200':
@@ -3862,31 +3280,37 @@ paths:
       - region
   /f/api/v1/site_live:
     get:
-      description: Get details about all of your live sites
+      description: Get details about all of your live sites. Site Bot Enabled.
       operationId: get_sites_live
       parameters:
       - in: query
         name: team_id
         required: false
         schema:
-          format: uuid4
+          anyOf:
+          - format: uuid4
+            type: string
+          - type: 'null'
           title: Team Id
-          type: string
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -3908,28 +3332,29 @@ paths:
       summary: Get your sites
       tags:
       - site_live
-      - site_live
     post:
       description: Create a new site by providing your domain and your site's WordPress
-        details
+        details. If you don't include a region_name, your default region will be used.
+        Site Bot Enabled.
       operationId: create_site_live
       requestBody:
         content:
           application/json:
-            example:
-              fqdn: www.example.org
-              team_id: $MY_TEAM_UUID
-              wordpress_blog_name: Bob Law's Dog Blog
-              wordpress_email: admin@example.org
-              wordpress_first_name: Bob
-              wordpress_last_name: Law
-              wordpress_password: A strong password
-              wordpress_username: bob2002
             schema:
               allOf:
               - $ref: '#/components/schemas/SiteLiveCreate'
               description: Your new site's details
+              examples:
+              - fqdn: www.example.org
+                team_id: $MY_TEAM_UUID
+                wordpress_blog_name: Bob Law's Dog Blog
+                wordpress_email: admin@example.org
+                wordpress_first_name: Bob
+                wordpress_last_name: Law
+                wordpress_password: A strong password
+                wordpress_username: bob2002
               title: Obj In
+        required: true
       responses:
         '201':
           content:
@@ -3949,10 +3374,10 @@ paths:
       summary: Create a site
       tags:
       - site_live
-      - site_live
   /f/api/v1/site_live/{fqdn}:
     delete:
-      description: This permanently deletes your site, and its stage site if one exists
+      description: This permanently deletes your site, and its stage site if one exists.
+        Site Bot Enabled.
       operationId: delete_site_live
       parameters:
       - in: path
@@ -3979,9 +3404,8 @@ paths:
       summary: Delete your live site
       tags:
       - site_live
-      - site_live
     get:
-      description: Get details about your live site
+      description: Get details about your live site. Site Bot Enabled.
       operationId: get_site_live
       parameters:
       - in: path
@@ -4009,9 +3433,8 @@ paths:
       summary: Get your live site
       tags:
       - site_live
-      - site_live
     patch:
-      description: Update a site's details
+      description: Update a site's details. Site Bot Enabled.
       operationId: update_site_live
       parameters:
       - in: path
@@ -4045,76 +3468,10 @@ paths:
       summary: Update a site
       tags:
       - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/change_dev_mode:
-    patch:
-      description: Enable or disable HTTP Basic Authentication
-      operationId: change_dev_mode
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      - in: query
-        name: value
-        required: true
-        schema:
-          title: Value
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Change HTTP Auth
-      tags:
-      - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/clear_cache:
-    post:
-      description: Purges the Cloudflare CDN cache for your site
-      operationId: clear_cache
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Clear the cache
-      tags:
-      - site_live
-      - site_live
   /f/api/v1/site_live/{fqdn}/cmd:
     post:
-      description: Send a bash shell command to your site, such as a WP-CLI command
+      description: Send a bash shell command to your site, such as a WP-CLI command.
+        Site Bot Enabled.
       operationId: shell_cmd_site_live
       parameters:
       - in: path
@@ -4168,365 +3525,10 @@ paths:
       summary: Execute shell command
       tags:
       - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/dns:
-    get:
-      description: Get a nameserver configured site's DNS records
-      operationId: get_dns_records
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON list of DNS records
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Get DNS records
-      tags:
-      - site_live
-      - site_live
-    patch:
-      description: Update a DNS record on your Nameserver configured site
-      operationId: update_dns_record
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      requestBody:
-        content:
-          application/json:
-            example:
-              content: sitebaydocsprod.sitebay.ca
-              name: /support
-            schema:
-              $ref: '#/components/schemas/CloudflareDnsRecordUpdate'
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Update a Cloudflare DNS record
-      tags:
-      - site_live
-      - site_live
-    post:
-      description: Create a DNS record on your Nameserver configured site
-      operationId: create_dns_record
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      requestBody:
-        content:
-          application/json:
-            example:
-              content: sitebaydocsprod.sitebay.ca
-              name: /support
-            schema:
-              $ref: '#/components/schemas/CloudflareDnsRecordCreate'
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Create a Cloudflare DNS record
-      tags:
-      - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/dns/email_dns_records:
-    get:
-      description: Get the required records for our custom email service
-      operationId: get_mail_dns
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON list of requisite DNS records
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Get Required mail DNS records
-      tags:
-      - site_live
-      - site_live
-    post:
-      description: Automatically add the DNS records to your Nameserver configured
-        site
-      operationId: add_mail_dns
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Create Email DNS records
-      tags:
-      - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/dns/{dns_id}:
-    delete:
-      description: Delete a DNS record on your Nameserver configured site
-      operationId: delete_dns_record
-      parameters:
-      - in: path
-        name: dns_id
-        required: true
-        schema:
-          title: Dns Id
-          type: string
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Delete DNS record
-      tags:
-      - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/email:
-    get:
-      description: Get all custom email accounts
-      operationId: get_emails
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema:
-                items:
-                  $ref: '#/components/schemas/UserEmail'
-                title: Response Get Emails F Api V1 Site Live  Fqdn  Email Get
-                type: array
-          description: List of UserEmailSchema
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Get Emails
-      tags:
-      - site_live
-      - site_live
-    post:
-      description: Enter the email which will forward other emails to.
-      operationId: create_forwarding_email
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      - in: query
-        name: custom_email
-        required: true
-        schema:
-          title: Custom Email
-          type: string
-      - in: query
-        name: forwarding_email
-        required: true
-        schema:
-          title: Forwarding Email
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Register Email Routing Address
-      tags:
-      - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/email/{user_email_address}:
-    delete:
-      description: Delete a custom email account
-      operationId: delete_email
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      - in: path
-        name: user_email_address
-        required: true
-        schema:
-          title: User Email Address
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Delete Email
-      tags:
-      - site_live
-      - site_live
-    patch:
-      description: Update a custom email account
-      operationId: update_email
-      parameters:
-      - in: path
-        name: user_email_address
-        required: true
-        schema:
-          title: User Email Address
-          type: string
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      requestBody:
-        content:
-          application/json:
-            example:
-              is_catchall: true
-              password: A very strong password
-            schema:
-              $ref: '#/components/schemas/UserEmailUpdate'
-      responses:
-        '200':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/UserEmail'
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Update Email
-      tags:
-      - site_live
-      - site_live
   /f/api/v1/site_live/{fqdn}/event:
     get:
-      description: Get events, such as restores, updates, stage creations, etc.
+      description: Get events, such as restores, updates, stage creations, etc. Site
+        Bot Enabled.
       operationId: get_site_events
       parameters:
       - in: path
@@ -4535,21 +3537,25 @@ paths:
         schema:
           title: Fqdn
           type: string
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -4571,10 +3577,9 @@ paths:
       summary: Get Site Events
       tags:
       - site_live
-      - site_live
   /f/api/v1/site_live/{fqdn}/external_path:
     get:
-      description: Get details about your site's external path configs
+      description: Get details about your site's external path configs. Site Bot Enabled.
       operationId: get_external_paths
       parameters:
       - in: path
@@ -4583,21 +3588,25 @@ paths:
         schema:
           title: Fqdn
           type: string
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -4619,9 +3628,8 @@ paths:
       summary: Get External Paths
       tags:
       - site_live
-      - site_live
     post:
-      description: Connect an external URL to your site on a subpath
+      description: Connect an external URL to your site on a subpath. Site Bot Enabled.
       operationId: create_external_path
       parameters:
       - in: path
@@ -4633,13 +3641,15 @@ paths:
       requestBody:
         content:
           application/json:
-            example:
-              external_name: sitebaydocsprod.sitebay.ca
-              path: /support
             schema:
-              $ref: '#/components/schemas/ExternalPathCreate'
+              allOf:
+              - $ref: '#/components/schemas/ExternalPathCreate'
+              examples:
+              - external_name: support.sitebay.org
+                path: /support
+              title: Obj In
       responses:
-        '200':
+        '201':
           content:
             application/json:
               schema:
@@ -4657,10 +3667,10 @@ paths:
       summary: Create External Path
       tags:
       - site_live
-      - site_live
   /f/api/v1/site_live/{fqdn}/external_path/{external_path_id}:
     delete:
-      description: Delete the link between an external URL and your site
+      description: Delete the link between an external URL and your site. Site Bot
+        Enabled.
       operationId: delete_external_path
       parameters:
       - in: path
@@ -4693,7 +3703,6 @@ paths:
       - APIKeyCookie: []
       summary: Delete External Path
       tags:
-      - site_live
       - site_live
     get:
       description: Get an external path for your site
@@ -4731,9 +3740,8 @@ paths:
       summary: Get External Path
       tags:
       - site_live
-      - site_live
     patch:
-      description: Update your site's external path configs
+      description: Update your site's external path configs. Site Bot Enabled.
       operationId: update_external_path
       parameters:
       - in: path
@@ -4752,18 +3760,20 @@ paths:
       requestBody:
         content:
           application/json:
-            example:
-              external_name: sitebaydocsprod.sitebay.ca
-              path: /support
             schema:
-              $ref: '#/components/schemas/ExternalPathUpdate'
+              allOf:
+              - $ref: '#/components/schemas/ExternalPathUpdate'
+              examples:
+              - external_name: support.sitebay.org
+                path: /support
+              title: Obj In
       responses:
         '200':
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/ExternalPath'
-          description: List of ExternalPathSchema
+          description: ExternalPathSchema
         '422':
           content:
             application/json:
@@ -4775,108 +3785,6 @@ paths:
       - APIKeyCookie: []
       summary: Update External Path
       tags:
-      - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/firewall:
-    delete:
-      description: Disable wp-login firewall
-      operationId: disable_firewall
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Disable the firewall
-      tags:
-      - site_live
-      - site_live
-    patch:
-      description: Add/Delete an IP from the wp-login firewall
-      operationId: modify_firewall
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      - in: query
-        name: add_or_del
-        required: false
-        schema:
-          default: add
-          title: Add Or Del
-          type: string
-      - in: query
-        name: ip_address
-        required: true
-        schema:
-          title: Ip Address
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Modify the firewall
-      tags:
-      - site_live
-      - site_live
-    post:
-      description: Enable the wp-login firewall
-      operationId: enable_firewall
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON list of allowed IPs
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Enable the firewall
-      tags:
-      - site_live
       - site_live
   /f/api/v1/site_live/{fqdn}/get_download_urls:
     post:
@@ -4892,19 +3800,16 @@ paths:
         name: at_date
         required: false
         schema:
-          format: date-time
+          anyOf:
+          - format: date-time
+            type: string
+          - type: 'null'
           title: At Date
-          type: string
       requestBody:
         content:
           application/json:
-            example:
-            - /wp-content/themes/twentytwentythree/readme.txt
             schema:
-              items:
-                type: string
-              title: Keys
-              type: array
+              $ref: '#/components/schemas/Body_get_blob_urls_f_api_v1_site_live__fqdn__get_download_urls_post'
         required: true
       responses:
         '200':
@@ -4929,11 +3834,10 @@ paths:
       summary: Get Blob Urls
       tags:
       - site_live
-      - site_live
   /f/api/v1/site_live/{fqdn}/pit_restore:
     get:
       description: Get all the results of a site's restores to a previous point in
-        time
+        time. Site Bot Enabled.
       operationId: get_pit_restores
       parameters:
       - in: path
@@ -4942,21 +3846,25 @@ paths:
         schema:
           title: Fqdn
           type: string
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -4978,9 +3886,9 @@ paths:
       summary: Get PIT Restores
       tags:
       - site_live
-      - site_live
     post:
-      description: Restore your site to a previous point in time, down to the minute
+      description: Restore your site to a previous point in time, down to the minute.
+        Site Bot Enabled.
       operationId: restore_site
       parameters:
       - in: path
@@ -5013,7 +3921,6 @@ paths:
       - APIKeyCookie: []
       summary: Create PIT Restore
       tags:
-      - site_live
       - site_live
   /f/api/v1/site_live/{fqdn}/pit_restore/files:
     get:
@@ -5051,7 +3958,6 @@ paths:
       summary: PIT Files
       tags:
       - site_live
-      - site_live
   /f/api/v1/site_live/{fqdn}/pit_restore/preview:
     post:
       description: Restore your site to a previous point in time, down to the minute
@@ -5088,10 +3994,10 @@ paths:
       summary: Preview PIT Restore
       tags:
       - site_live
-      - site_live
   /f/api/v1/site_live/{fqdn}/pit_restore/{pit_restore_id}:
     get:
-      description: Get the results of a site's restore to a previous point in time
+      description: Get the results of a site's restore to a previous point in time.
+        Site Bot Enabled.
       operationId: get_pit_restore
       parameters:
       - in: path
@@ -5107,12 +4013,18 @@ paths:
         schema:
           title: Fqdn
           type: string
+      - in: query
+        name: format
+        required: false
+        schema:
+          default: json
+          title: Format
+          type: string
       responses:
         '200':
           content:
             application/json:
-              schema:
-                $ref: '#/components/schemas/PITRestore'
+              schema: {}
           description: PIT Restore details
         '422':
           content:
@@ -5126,40 +4038,9 @@ paths:
       summary: Get PIT Restore
       tags:
       - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/renew_lease_code_server:
-    post:
-      description: Renew lease for code-server
-      operationId: renew_lease_code_server
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Ping
-      tags:
-      - site_live
-      - site_live
   /f/api/v1/site_live/{fqdn}/stage:
     delete:
-      description: Delete your staging site
+      description: Delete your staging site. Site Bot Enabled.
       operationId: delete_site_stage
       parameters:
       - in: path
@@ -5186,9 +4067,8 @@ paths:
       summary: Delete Stage Site
       tags:
       - site_live
-      - site_live
     post:
-      description: Create a staging site on which you can test changes
+      description: Create a staging site on which you can test changes. Site Bot Enabled.
       operationId: create_site_stage
       parameters:
       - in: path
@@ -5200,18 +4080,20 @@ paths:
       requestBody:
         content:
           application/json:
-            example:
-              restore_point: '2023-08-18T09:19:32.095592'
-              subdomain: staging
             schema:
-              $ref: '#/components/schemas/SiteStageCreate'
+              allOf:
+              - $ref: '#/components/schemas/SiteStageCreate'
+              examples:
+              - restore_point: '2024-01-31T02:02:49.332031Z'
+                subdomain: staging
+              title: Obj In
       responses:
         '200':
           content:
             application/json:
               schema:
                 $ref: '#/components/schemas/app__schemas__site_stage__SiteStage'
-          description: SiteStageSchema
+          description: Site Stage Schema
         '422':
           content:
             application/json:
@@ -5224,11 +4106,10 @@ paths:
       summary: Create a Staging site
       tags:
       - site_live
-      - site_live
   /f/api/v1/site_live/{fqdn}/stage/commit:
     post:
       description: Sync the wp-content and database from your staging site to your
-        live site
+        live site. Site Bot Enabled.
       operationId: commit_site_stage
       parameters:
       - in: path
@@ -5256,122 +4137,9 @@ paths:
       summary: Commit Stage Site
       tags:
       - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/tag:
-    get:
-      description: Get all the tags for your site
-      operationId: get_tags
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '201':
-          content:
-            application/json:
-              schema:
-                items:
-                  $ref: '#/components/schemas/Tag'
-                title: Response Get Tags F Api V1 Site Live  Fqdn  Tag Get
-                type: array
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Get tags
-      tags:
-      - site_live
-      - site_live
-    post:
-      description: Create a tag for organizational purposes for your site
-      operationId: create_tag
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      requestBody:
-        content:
-          application/json:
-            example:
-              name: customer_id_1251515
-            schema:
-              $ref: '#/components/schemas/TagCreate'
-      responses:
-        '201':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/Tag'
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Create tag
-      tags:
-      - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/tag/{tag_id}:
-    delete:
-      description: Get a tag by its ID
-      operationId: delete_tag
-      parameters:
-      - in: path
-        name: tag_id
-        required: true
-        schema:
-          format: uuid4
-          title: Tag Id
-          type: string
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '201':
-          content:
-            application/json:
-              schema:
-                items:
-                  $ref: '#/components/schemas/Tag'
-                title: Response Delete Tag F Api V1 Site Live  Fqdn  Tag  Tag Id  Delete
-                type: array
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: Get a tag
-      tags:
-      - site_live
-      - site_live
   /f/api/v1/site_live/{fqdn}/tools:
     get:
-      description: Get details about your live site
+      description: Get details about your live site's tools on Cloudflare
       operationId: get_site_live_tools
       parameters:
       - in: path
@@ -5396,9 +4164,8 @@ paths:
       security:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
-      summary: Get your live site
+      summary: Get Cloudflare info
       tags:
-      - site_live
       - site_live
   /f/api/v1/site_live/{fqdn}/usage:
     get:
@@ -5443,52 +4210,9 @@ paths:
       summary: Get Site Plan Usage
       tags:
       - site_live
-      - site_live
-  /f/api/v1/site_live/{fqdn}/validate_mx_records:
-    get:
-      description: Check if your mail related DNS records are set up correctly
-      operationId: validate_mx_records
-      parameters:
-      - in: path
-        name: fqdn
-        required: true
-        schema:
-          title: Fqdn
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: JSON
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: MX Validation
-      tags:
-      - site_live
-      - site_live
-  /f/api/v1/stripe-webhook:
-    post:
-      description: Stripe payments webhook endpoint
-      operationId: stripe_webhook
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-      summary: Stripe Webhook
-      tags:
-      - webhook
   /f/api/v1/support/ticket:
     get:
+      description: Get your support ticket requests
       operationId: get_tickets
       responses:
         '200':
@@ -5503,7 +4227,7 @@ paths:
       security:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
-      summary: Get Tickets
+      summary: Get tickets
       tags:
       - ticket
     post:
@@ -5512,13 +4236,13 @@ paths:
       requestBody:
         content:
           application/json:
-            example:
-              description: Help me set up an agency
-              subject: Agency
             schema:
               allOf:
               - $ref: '#/components/schemas/TicketCreate'
               default: ''
+              examples:
+              - description: Help me set up an agency
+                subject: Agency
               title: Obj In
       responses:
         '201':
@@ -5548,8 +4272,9 @@ paths:
         name: ticket_id
         required: true
         schema:
+          format: uuid4
           title: Ticket Id
-          type: integer
+          type: string
       responses:
         '200':
           content:
@@ -5577,8 +4302,9 @@ paths:
         name: ticket_id
         required: true
         schema:
+          format: uuid4
           title: Ticket Id
-          type: integer
+          type: string
       responses:
         '200':
           content:
@@ -5607,8 +4333,9 @@ paths:
         name: ticket_id
         required: true
         schema:
+          format: uuid4
           title: Ticket Id
-          type: integer
+          type: string
       responses:
         '200':
           content:
@@ -5640,16 +4367,19 @@ paths:
         name: ticket_id
         required: true
         schema:
+          format: uuid4
           title: Ticket Id
-          type: integer
+          type: string
       requestBody:
         content:
           application/json:
-            example:
-              description: Thanks for the help
-              resolve: true
             schema:
-              $ref: '#/components/schemas/TicketReplyCreate'
+              allOf:
+              - $ref: '#/components/schemas/TicketReplyCreate'
+              examples:
+              - description: Thanks for the help
+                resolve: true
+              title: Obj In
         required: true
       responses:
         '201':
@@ -5675,21 +4405,25 @@ paths:
       description: Get details about all of your owned and member teams
       operationId: get_teams
       parameters:
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -5710,7 +4444,6 @@ paths:
       - APIKeyCookie: []
       summary: Get your teams
       tags:
-      - team
       - team
   /f/api/v1/team/{team_id}:
     get:
@@ -5742,7 +4475,6 @@ paths:
       - APIKeyCookie: []
       summary: Get a team
       tags:
-      - team
       - team
     patch:
       description: Adjust your team's settings
@@ -5780,38 +4512,6 @@ paths:
       summary: Update a Team
       tags:
       - team
-      - team
-  /f/api/v1/team/{team_id}/billing:
-    get:
-      description: test
-      operationId: get_team_billing
-      parameters:
-      - in: path
-        name: team_id
-        required: true
-        schema:
-          format: uuid4
-          title: Team Id
-          type: string
-      responses:
-        '200':
-          content:
-            application/json:
-              schema: {}
-          description: Successful Response
-        '422':
-          content:
-            application/json:
-              schema:
-                $ref: '#/components/schemas/HTTPValidationError'
-          description: Validation Error
-      security:
-      - OAuth2PasswordBearer: []
-      - APIKeyCookie: []
-      summary: test
-      tags:
-      - team
-      - team
   /f/api/v1/team/{team_id}/event:
     get:
       description: Get events, such as restores, updates, stage creations, etc.
@@ -5824,21 +4524,25 @@ paths:
           format: uuid4
           title: Team Id
           type: string
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -5860,6 +4564,47 @@ paths:
       summary: Get Team Events
       tags:
       - team
+  /f/api/v1/team/{team_id}/grafana/{path}:
+    post:
+      description: Currently only Loki (logql) is supported. Site Bot Enabled.
+      operationId: grafana_query
+      parameters:
+      - in: path
+        name: path
+        required: true
+        schema:
+          title: Path
+          type: string
+      - in: path
+        name: team_id
+        required: true
+        schema:
+          format: uuid4
+          title: Team Id
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GrafanaQueryModel'
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+        '422':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+          description: Validation Error
+      security:
+      - OAuth2PasswordBearer: []
+      - APIKeyCookie: []
+      summary: Run a grafana query for your sites.
+      tags:
       - team
   /f/api/v1/team/{team_id}/invite:
     get:
@@ -5873,21 +4618,25 @@ paths:
           format: uuid4
           title: Team Id
           type: string
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -5908,7 +4657,6 @@ paths:
       - APIKeyCookie: []
       summary: Get a team's invites
       tags:
-      - team
       - team
     post:
       operationId: create_team_member_invite
@@ -5951,11 +4699,17 @@ paths:
       summary: Create Team Member Invite
       tags:
       - team
-      - team
   /f/api/v1/team/{team_id}/invite/{invite_id}:
     post:
-      description: ":param team_id:\n:param invite_id: \n:param db: \n:param user:\
-        \ \n:return:"
+      description: ':param team_id:
+
+        :param invite_id:
+
+        :param db:
+
+        :param user:
+
+        :return:'
       operationId: accept_team_member_invite
       parameters:
       - in: path
@@ -5990,7 +4744,6 @@ paths:
       - APIKeyCookie: []
       summary: Accept Team Member Invite
       tags:
-      - team
       - team
   /f/api/v1/team/{team_id}/invite/{team_member_invite_id}:
     delete:
@@ -6028,7 +4781,6 @@ paths:
       summary: Delete Team Member Invite
       tags:
       - team
-      - team
   /f/api/v1/team/{team_id}/member:
     get:
       description: Get a list of Team Members
@@ -6041,21 +4793,25 @@ paths:
           format: uuid4
           title: Team Id
           type: string
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -6077,12 +4833,18 @@ paths:
       summary: Get a team's members
       tags:
       - team
-      - team
   /f/api/v1/team/{team_id}/member/{team_member_id}:
     get:
       description: Get a Team Member by their UUID
       operationId: get_team_member
       parameters:
+      - in: path
+        name: team_member_id
+        required: true
+        schema:
+          format: uuid4
+          title: Team Member Id
+          type: string
       - in: path
         name: team_id
         required: true
@@ -6108,7 +4870,6 @@ paths:
       - APIKeyCookie: []
       summary: Get Team Member
       tags:
-      - team
       - team
   /f/api/v1/team/{team_id}/member/{team_member_user_id}:
     delete:
@@ -6147,27 +4908,30 @@ paths:
       summary: Remove Team Member
       tags:
       - team
-      - team
   /f/api/v1/template:
     get:
-      description: Returns a list of ready-made template sites
+      description: Returns a list of ready-made template sites. Site Bot enabled.
       operationId: get_templates
       parameters:
-      - in: query
+      - description: Page number
+        in: query
         name: page
         required: false
         schema:
           default: 1
-          minimum: 1.0
+          description: Page number
+          minimum: 1
           title: Page
           type: integer
-      - in: query
+      - description: Page size
+        in: query
         name: size
         required: false
         schema:
           default: 50
-          maximum: 100.0
-          minimum: 1.0
+          description: Page size
+          maximum: 100
+          minimum: 1
           title: Size
           type: integer
       responses:
@@ -6183,25 +4947,29 @@ paths:
               schema:
                 $ref: '#/components/schemas/HTTPValidationError'
           description: Validation Error
+      security:
+      - OAuth2PasswordBearer: []
+      - APIKeyCookie: []
       summary: Get Templates
       tags:
       - template
     post:
-      description: Create a new template by uploading a wpress file
+      description: Create a new template by uploading a GitHub repo containing a wpress
+        file
       operationId: submit_template
       requestBody:
         content:
           application/json:
-            example:
-              full_description: A clothing store template based on shopify and woocommerce
-              name: my_ecommerce_template
-              plugins: wordfence,woocommerce,elementor
-              quickstart: https://github.com/wanda1987/mytemplate/README.md
-              short_description: An easy way to launch a storefront quick.
-              tag: business
-              wpress_url: https://github.com/wanda1987/mytemplate/template.wpress
             schema:
-              $ref: '#/components/schemas/TemplateCreate'
+              allOf:
+              - $ref: '#/components/schemas/TemplateCreate'
+              examples:
+              - description: A clothing store template based on shopify and woocommerce
+                name: my_ecommerce_template
+                tag: business
+                theme: astra
+                url: https://github.com/wanda1987/mytemplate/
+              title: Obj In
       responses:
         '200':
           content:
@@ -6222,6 +4990,34 @@ paths:
       tags:
       - template
   /f/api/v1/template/{template_name}:
+    delete:
+      description: Delete your template
+      operationId: delete_template
+      parameters:
+      - in: path
+        name: template_name
+        required: true
+        schema:
+          title: Template Name
+          type: string
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+        '422':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+          description: Validation Error
+      security:
+      - OAuth2PasswordBearer: []
+      - APIKeyCookie: []
+      summary: Delete Template
+      tags:
+      - template
     get:
       description: Get details of a ready-made template sites by its name
       operationId: get_template
@@ -6248,18 +5044,44 @@ paths:
       summary: Get Template by name
       tags:
       - template
-  /f/api/v1/test-sentry:
-    get:
-      operationId: test_sentry
+    patch:
+      description: Update an existing template using its name
+      operationId: update_template
+      parameters:
+      - in: path
+        name: template_name
+        required: true
+        schema:
+          title: Template Name
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              allOf:
+              - $ref: '#/components/schemas/TemplateUpdate'
+              description: Template update fields
+              title: Obj In
+        required: true
       responses:
         '200':
           content:
             application/json:
-              schema: {}
+              schema:
+                $ref: '#/components/schemas/Template'
           description: Successful Response
-      summary: Test Sentry
+        '422':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+          description: Validation Error
+      security:
+      - OAuth2PasswordBearer: []
+      - APIKeyCookie: []
+      summary: Update Template
       tags:
-      - utils
+      - template
   /f/api/v1/verify_domain:
     get:
       description: Returns success if a given FQDN's DNS records are correctly set
@@ -6305,8 +5127,10 @@ paths:
         name: git_branch
         required: false
         schema:
+          anyOf:
+          - type: string
+          - type: 'null'
           title: Git Branch
-          type: string
       responses:
         '200':
           content:
@@ -6323,6 +5147,143 @@ paths:
       - OAuth2PasswordBearer: []
       - APIKeyCookie: []
       summary: Verify Git Sync Directories
+      tags:
+      - utils
+  /f/api/v1/wp-json/wp/v2/{path}:
+    delete:
+      description: Proxies DELETE requests to a WordPress JSON API. Site Bot Enabled.
+      operationId: proxy_to_wp_site_delete
+      parameters:
+      - in: path
+        name: path
+        required: true
+        schema:
+          title: Path
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WPProxyParams'
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+        '422':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+          description: Validation Error
+      security:
+      - OAuth2PasswordBearer: []
+      - APIKeyCookie: []
+      summary: Proxy To Wp Site Delete
+      tags:
+      - utils
+    get:
+      description: Proxies GET requests to a WordPress JSON API. Site Bot Enabled.
+      operationId: proxy_to_wp_site_get
+      parameters:
+      - in: path
+        name: path
+        required: true
+        schema:
+          title: Path
+          type: string
+      - in: query
+        name: fqdn
+        required: true
+        schema:
+          title: Fqdn
+          type: string
+      - in: query
+        name: query_params_json
+        required: false
+        schema:
+          anyOf:
+          - type: string
+          - type: 'null'
+          title: Query Params Json
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+        '422':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+          description: Validation Error
+      security:
+      - OAuth2PasswordBearer: []
+      - APIKeyCookie: []
+      summary: Proxy To Wp Site Get
+      tags:
+      - utils
+    post:
+      description: Proxies POST requests to a WordPress JSON API. Site Bot Enabled.
+      operationId: proxy_to_wp_site_post
+      parameters:
+      - in: path
+        name: path
+        required: true
+        schema:
+          title: Path
+          type: string
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/WPProxyParams'
+        required: true
+      responses:
+        '200':
+          content:
+            application/json:
+              schema: {}
+          description: Successful Response
+        '422':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+          description: Validation Error
+      security:
+      - OAuth2PasswordBearer: []
+      - APIKeyCookie: []
+      summary: Proxy To Wp Site Post
+      tags:
+      - utils
+  /f/api/v1/xmlrpc/{fqdn}:
+    post:
+      description: Proxies GET requests to a WordPress xmlrpc endpoint
+      operationId: proxy_xmlrpc
+      parameters:
+      - in: path
+        name: fqdn
+        required: true
+        schema:
+          title: Fqdn
+          type: string
+      responses:
+        '200':
+          description: Successful Response
+        '422':
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+          description: Validation Error
+      security:
+      - OAuth2PasswordBearer: []
+      - APIKeyCookie: []
+      summary: Proxy Xmlrpc
       tags:
       - utils
 servers:

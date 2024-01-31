@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git Sync on Site Bay Tutorials</title>
+    <link>https://support.sitebay.org/support/tutorials/platform/git-sync/</link>
+    <description>Recent content in Git Sync on Site Bay Tutorials</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 26 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://support.sitebay.org/support/tutorials/platform/git-sync/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best IDE Software for WordPress Development</title>
+      <link>https://support.sitebay.org/support/tutorials/best-ide-wordpress/</link>
+      <pubDate>Tue, 23 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://support.sitebay.org/support/tutorials/best-ide-wordpress/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>How Git Sync Works With PIT Machine</title>
+      <link>https://support.sitebay.org/support/tutorials/how-git-sync-works-with-point-in-time-machine/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://support.sitebay.org/support/tutorials/how-git-sync-works-with-point-in-time-machine/</guid>
+      <description>Do you have a WordPress site set up with our Bi-Directional Git Sync? It also works with our Point-in-Time machine to restore your database and files to any point, down to the minute.</description>
+    </item>
+    
+    <item>
+      <title>How to Use Site Bay&#39;s Git Sync</title>
+      <link>https://support.sitebay.org/support/tutorials/how-to-use-sitebay-git-sync/</link>
+      <pubDate>Tue, 26 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://support.sitebay.org/support/tutorials/how-to-use-sitebay-git-sync/</guid>
+      <description> </description>
+    </item>
+    
+  </channel>
+</rss>

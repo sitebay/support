@@ -1,0 +1,12 @@
+{
+  "global": {
+    "promo_code": "new-user-25",
+    "promo_value": "25",
+    "promo_days": "60"
+  },
+  "docs": {
+    "promo_code": "new-user-25",
+    "promo_value": "25",
+    "promo_days": "60"
+  }
+}

@@ -1,141 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [
   {
     "authors": [],
@@ -148,6 +10,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/getting-started/",
+    "isBranch": false,
     "keywords": [
       "getting started",
       "intro",
@@ -156,7 +19,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Get Started with Site Bay",
     "objectID": "/support/tutorials/getting-started/",
     "ordinal": 0,
@@ -184,6 +47,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/quick-answers/",
+    "isBranch": true,
     "keywords": [
       "quick answers",
       "linux",
@@ -191,7 +55,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Quick Answers",
     "objectID": "/support/tutorials/quick-answers/",
     "ordinal": 0,
@@ -219,6 +83,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/websites/",
+    "isBranch": true,
     "keywords": [
       "web applications",
       "wikis",
@@ -233,7 +98,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Website Tutorials",
     "objectID": "/support/tutorials/websites/",
     "ordinal": 0,
@@ -261,10 +126,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/security/",
+    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "WordPress Security",
     "objectID": "/support/tutorials/security/",
     "ordinal": 0,
@@ -292,6 +158,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/development/",
+    "isBranch": true,
     "keywords": [
       "development",
       "vscode",
@@ -301,7 +168,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "WordPress Development",
     "objectID": "/support/tutorials/development/",
     "ordinal": 0,
@@ -329,6 +196,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/",
+    "isBranch": true,
     "keywords": [
       "development",
       "vscode",
@@ -338,7 +206,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Site Bay Platform",
     "objectID": "/support/tutorials/platform/",
     "ordinal": 0,
@@ -366,10 +234,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/troubleshooting/",
+    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Troubleshooting",
     "objectID": "/support/tutorials/troubleshooting/",
     "ordinal": 0,
@@ -397,6 +266,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/recovering-from-a-wordpress-hack/",
+    "isBranch": false,
     "keywords": [
       "root compromise",
       "troubleshooting",
@@ -405,7 +275,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Recovering from a WordPress Hack",
     "objectID": "/support/tutorials/recovering-from-a-wordpress-hack/",
     "ordinal": 0,
@@ -439,6 +309,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/sitebay-recordings-page/",
+    "isBranch": false,
     "keywords": [
       "sitebay",
       "maintenance",
@@ -448,7 +319,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Site Bay Recordings",
     "objectID": "/support/tutorials/sitebay-recordings-page/",
     "ordinal": 0,
@@ -480,6 +351,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/sitebay-status-page/",
+    "isBranch": false,
     "keywords": [
       "sitebay",
       "maintenance",
@@ -489,7 +361,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Subscribe to Site Bay Status Updates",
     "objectID": "/support/tutorials/sitebay-status-page/",
     "ordinal": 0,
@@ -521,6 +393,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/set-up-subdomain-or-subdirectory-wordpress/",
+    "isBranch": false,
     "keywords": [
       "hosting a website",
       "website",
@@ -528,7 +401,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Set up a Subdomain or Path for your WordPress Site",
     "objectID": "/support/tutorials/set-up-subdomain-or-subdirectory-wordpress/",
     "ordinal": 0,
@@ -561,13 +434,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/fix-dns-probe-finished-nxdomain/",
+    "isBranch": false,
     "keywords": [
       "server",
       "error"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Fix DNS_PROBE_FINISHED_NXDOMAIN in Chrome",
     "objectID": "/support/tutorials/fix-dns-probe-finished-nxdomain/",
     "ordinal": 0,
@@ -599,6 +473,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/accounts-and-passwords/",
+    "isBranch": false,
     "keywords": [
       "accounts",
       "passwords",
@@ -606,7 +481,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Accounts and Passwords",
     "objectID": "/support/tutorials/accounts-and-passwords/",
     "ordinal": 0,
@@ -639,13 +514,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/getting-started-with-the-sitebay-api/",
+    "isBranch": false,
     "keywords": [
       "sitebay api",
       "access token"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Getting Started with the Site Bay API",
     "objectID": "/support/tutorials/getting-started-with-the-sitebay-api/",
     "ordinal": 0,
@@ -677,10 +553,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/time-machine-api/",
+    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Developers",
     "objectID": "/support/features/time-machine/time-machine-api/",
     "ordinal": 50,
@@ -709,10 +586,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/get-started-with-pit-machine/",
+    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Get Started",
     "objectID": "/support/features/time-machine/get-started-with-pit-machine/",
     "ordinal": 20,
@@ -741,10 +619,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/",
+    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Point-in-Time Machine",
     "objectID": "/support/features/time-machine/",
     "ordinal": 10,
@@ -772,10 +651,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/resources/",
+    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Resources",
     "objectID": "/support/features/time-machine/resources/",
     "ordinal": 40,
@@ -804,10 +684,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/tutorials/take-a-blueprint/",
+    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Take a Manual Snapshot",
     "objectID": "/support/features/time-machine/tutorials/take-a-blueprint/",
     "ordinal": 0,
@@ -837,10 +718,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/time-machine/tutorials/",
+    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Tutorials",
     "objectID": "/support/features/time-machine/tutorials/",
     "ordinal": 30,
@@ -868,7 +750,8 @@
     "firstPublishedYear": 2021,
     "hiddentutorial": null,
     "hierarchy": [],
-    "href": "/support/tutorials/beginners-tutorial-to-wordpress/",
+    "href": "/support/tutorials/beginners-guide-to-wordpress/",
+    "isBranch": false,
     "keywords": [
       "wordpress",
       "help",
@@ -877,9 +760,9 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "A Beginner's Tutorial to WordPress",
-    "objectID": "/support/tutorials/beginners-tutorial-to-wordpress/",
+    "objectID": "/support/tutorials/beginners-guide-to-wordpress/",
     "ordinal": 0,
     "section": "tutorials \u003e wordpress",
     "section.lvl0": "tutorials",
@@ -889,7 +772,7 @@
       "wordpress",
       "quickstart"
     ],
-    "thumbnailUrl": "/support/tutorials/beginners-tutorial-to-wordpress/beginners-tutorial-to-wordpress_hu2e5baf9caf909fab8a6b27e2c4d613d4_547477_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "thumbnailUrl": "/support/tutorials/beginners-guide-to-wordpress/beginners-guide-to-wordpress_hu2e5baf9caf909fab8a6b27e2c4d613d4_547477_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "A Beginner's Tutorial to WordPress",
     "titleH1": "",
     "titleMeta": "",
@@ -908,7 +791,8 @@
     "firstPublishedYear": 2021,
     "hiddentutorial": null,
     "hierarchy": [],
-    "href": "/support/tutorials/beginners-tutorial-to-wordpress-2/",
+    "href": "/support/tutorials/beginners-guide-to-wordpress-2/",
+    "isBranch": false,
     "keywords": [
       "wordpress",
       "help",
@@ -917,9 +801,9 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "A Beginner's Tutorial to WordPress Part 2",
-    "objectID": "/support/tutorials/beginners-tutorial-to-wordpress-2/",
+    "objectID": "/support/tutorials/beginners-guide-to-wordpress-2/",
     "ordinal": 0,
     "section": "tutorials \u003e wordpress",
     "section.lvl0": "tutorials",
@@ -929,7 +813,7 @@
       "wordpress",
       "quickstart"
     ],
-    "thumbnailUrl": "/support/tutorials/beginners-tutorial-to-wordpress-2/beginners-tutorial-to-wordpress-2_hu2e5baf9caf909fab8a6b27e2c4d613d4_547477_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "thumbnailUrl": "/support/tutorials/beginners-guide-to-wordpress-2/beginners-guide-to-wordpress-2_hu2e5baf9caf909fab8a6b27e2c4d613d4_547477_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "A Beginner's Tutorial to WordPress Part 2",
     "titleH1": "",
     "titleMeta": "",
@@ -949,13 +833,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-use-sitebay-templates/",
+    "isBranch": false,
     "keywords": [
       "one click",
       "templates"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Use Site Bay's Templates",
     "objectID": "/support/tutorials/how-to-use-sitebay-templates/",
     "ordinal": 0,
@@ -988,10 +873,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/dns-manager/tutorials/add-dns-records/",
+    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Add DNS Records",
     "objectID": "/support/features/dns-manager/tutorials/add-dns-records/",
     "ordinal": 0,
@@ -1021,10 +907,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/dns-manager/",
+    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Dns Manager",
     "objectID": "/support/features/dns-manager/",
     "ordinal": 10,
@@ -1052,10 +939,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/dns-manager/tutorials/edit-dns-records/",
+    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Edit DNS Records",
     "objectID": "/support/features/dns-manager/tutorials/edit-dns-records/",
     "ordinal": 0,
@@ -1085,10 +973,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/dns-manager/tutorials/transfer-domain-zones/",
+    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Transfer Domain Zones",
     "objectID": "/support/features/dns-manager/tutorials/transfer-domain-zones/",
     "ordinal": 0,
@@ -1118,10 +1007,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/dns-manager/tutorials/",
+    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Tutorials",
     "objectID": "/support/features/dns-manager/tutorials/",
     "ordinal": 30,
@@ -1150,6 +1040,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/billing-and-payments/",
+    "isBranch": false,
     "keywords": [
       "billing",
       "payments",
@@ -1157,7 +1048,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Billing Manager",
     "objectID": "/support/tutorials/billing-and-payments/",
     "ordinal": 0,
@@ -1189,6 +1080,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/best-ide-wordpress/",
+    "isBranch": false,
     "keywords": [
       "development",
       "ide",
@@ -1196,7 +1088,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Best IDE Software for WordPress Development",
     "objectID": "/support/tutorials/best-ide-wordpress/",
     "ordinal": 0,
@@ -1229,6 +1121,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/best-ide-wordpress/",
+    "isBranch": false,
     "keywords": [
       "development",
       "ide",
@@ -1236,7 +1129,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Best IDE Software for WordPress Development",
     "objectID": "/support/tutorials/best-ide-wordpress/",
     "ordinal": 0,
@@ -1269,6 +1162,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/template-quickstart-photography-portfolio/",
+    "isBranch": false,
     "keywords": [
       "template",
       "photography",
@@ -1276,7 +1170,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Get Started with our Photography Portfolio Template",
     "objectID": "/support/tutorials/template-quickstart-photography-portfolio/",
     "ordinal": 0,
@@ -1309,6 +1203,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/support/",
+    "isBranch": false,
     "keywords": [
       "support",
       "tech support",
@@ -1317,7 +1212,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Site Bay Support",
     "objectID": "/support/tutorials/support/",
     "ordinal": 0,
@@ -1349,6 +1244,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/securing-your-wordpress/",
+    "isBranch": false,
     "keywords": [
       "security",
       "secure",
@@ -1357,7 +1253,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Secure Your WordPress",
     "objectID": "/support/tutorials/securing-your-wordpress/",
     "ordinal": 0,
@@ -1390,6 +1286,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/tax-information/",
+    "isBranch": false,
     "keywords": [
       "accounts",
       "vat",
@@ -1408,7 +1305,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Tax Information",
     "objectID": "/support/tutorials/tax-information/",
     "ordinal": 0,
@@ -1440,6 +1337,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/api/",
+    "isBranch": true,
     "keywords": [
       "sitebay api",
       " api key",
@@ -1447,7 +1345,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Site Bay API",
     "objectID": "/support/tutorials/platform/api/",
     "ordinal": 0,
@@ -1476,13 +1374,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-sitebay-billing-works/",
+    "isBranch": false,
     "keywords": [
       "billing",
       "payments"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How Billing Works",
     "objectID": "/support/tutorials/how-sitebay-billing-works/",
     "ordinal": 0,
@@ -1514,6 +1413,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/sitebay-writers-formatting-tutorial/",
+    "isBranch": false,
     "keywords": [
       "style tutorial",
       "format",
@@ -1526,7 +1426,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Site Bay Writer's Formatting Tutorial",
     "objectID": "/support/tutorials/sitebay-writers-formatting-tutorial/",
     "ordinal": 0,
@@ -1554,13 +1454,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/wordpress-logging-and-monitoring/",
+    "isBranch": false,
     "keywords": [
       "wordpress monitoring tools",
       "nginx logs"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "WordPress Logging and Monitoring",
     "objectID": "/support/tutorials/wordpress-logging-and-monitoring/",
     "ordinal": 0,
@@ -1593,12 +1494,13 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/get-started/",
+    "isBranch": true,
     "keywords": [
       "sitebay platform"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Get Started",
     "objectID": "/support/tutorials/platform/get-started/",
     "ordinal": 0,
@@ -1629,13 +1531,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/websites/fundamentals/",
+    "isBranch": true,
     "keywords": [
       "website hosting",
       "high availability"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Website Fundamentals",
     "objectID": "/support/tutorials/websites/fundamentals/",
     "ordinal": 0,
@@ -1664,13 +1567,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/security/monitoring/",
+    "isBranch": true,
     "keywords": [
       "wordpress security monitoring",
       "intrusion detection"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Monitoring",
     "objectID": "/support/tutorials/security/monitoring/",
     "ordinal": 0,
@@ -1699,13 +1603,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/security/recovery/",
+    "isBranch": true,
     "keywords": [
       "linux system recovery",
       "system compromise recovery"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "System Recovery",
     "objectID": "/support/tutorials/security/recovery/",
     "ordinal": 0,
@@ -1734,13 +1639,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/development/tips-and-tricks/",
+    "isBranch": true,
     "keywords": [
       "mobile web development",
       "programming on ipad"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Tips and Tricks",
     "objectID": "/support/tutorials/development/tips-and-tricks/",
     "ordinal": 0,
@@ -1749,7 +1655,7 @@
     "section.lvl1": "tutorials-branches \u003e development",
     "skillLevel": null,
     "tags": null,
-    "thumbnailUrl": "/support/tutorials/advanced-wordpress-development-techniques/Site Bay_WebDev_hu3f942cecc26c94a9f8b6e42137deab14_92386_640x0_resize_q75_catmullrom.jpg",
+    "thumbnailUrl": "/support/tutorials/advanced-wordpress-development-techniques/Linode_WebDev_hu3f942cecc26c94a9f8b6e42137deab14_92386_640x0_resize_q75_catmullrom.jpg",
     "title": "Tips and Tricks",
     "titleH1": "",
     "titleMeta": "",
@@ -1769,6 +1675,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/beginners-tutorial-to-php-wordpress-developers/",
+    "isBranch": false,
     "keywords": [
       "php",
       "wordpress",
@@ -1776,7 +1683,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "A Beginner's Tutorial to PHP for WordPress Development",
     "objectID": "/support/tutorials/beginners-tutorial-to-php-wordpress-developers/",
     "ordinal": 0,
@@ -1806,13 +1713,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-compress-wordpress-site-to-zip/",
+    "isBranch": false,
     "keywords": [
       "migration",
       "wordpress"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Migrate your WordPress site",
     "objectID": "/support/tutorials/how-to-compress-wordpress-site-to-zip/",
     "ordinal": 0,
@@ -1845,13 +1753,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-migrate-your-site/",
+    "isBranch": false,
     "keywords": [
       "migration",
       "wordpress"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Migrate your WordPress site",
     "objectID": "/support/tutorials/how-to-migrate-your-site/",
     "ordinal": 0,
@@ -1884,13 +1793,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-migrate-your-site/",
+    "isBranch": false,
     "keywords": [
       "migration",
       "wordpress"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Migrate your WordPress site",
     "objectID": "/support/tutorials/how-to-migrate-your-site/",
     "ordinal": 0,
@@ -1923,12 +1833,13 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/wordpress/",
+    "isBranch": true,
     "keywords": [
       "wordpress"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "WordPress",
     "objectID": "/support/tutorials/wordpress/",
     "ordinal": 0,
@@ -1956,12 +1867,13 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/git-sync/",
+    "isBranch": true,
     "keywords": [
       "git-sync"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Git Sync",
     "objectID": "/support/tutorials/platform/git-sync/",
     "ordinal": 0,
@@ -1990,13 +1902,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-git-sync-works-with-point-in-time-machine/",
+    "isBranch": false,
     "keywords": [
       "git-sync",
       "pit-machine"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How Git Sync Works With PIT Machine",
     "objectID": "/support/tutorials/how-git-sync-works-with-point-in-time-machine/",
     "ordinal": 0,
@@ -2030,13 +1943,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-git-sync-works-with-point-in-time-machine/",
+    "isBranch": false,
     "keywords": [
       "git-sync",
       "pit-machine"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How Git Sync Works With PIT Machine",
     "objectID": "/support/tutorials/how-git-sync-works-with-point-in-time-machine/",
     "ordinal": 0,
@@ -2070,12 +1984,13 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-use-sitebay-git-sync/",
+    "isBranch": false,
     "keywords": [
       "git-sync"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Use Site Bay's Git Sync",
     "objectID": "/support/tutorials/how-to-use-sitebay-git-sync/",
     "ordinal": 0,
@@ -2109,12 +2024,13 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-use-sitebay-git-sync/",
+    "isBranch": false,
     "keywords": [
       "git-sync"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Use Site Bay's Git Sync",
     "objectID": "/support/tutorials/how-to-use-sitebay-git-sync/",
     "ordinal": 0,
@@ -2148,12 +2064,13 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/shopify/",
+    "isBranch": true,
     "keywords": [
       "git-sync"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Shopify Connect",
     "objectID": "/support/tutorials/platform/shopify/",
     "ordinal": 0,
@@ -2182,12 +2099,13 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/templates/",
+    "isBranch": true,
     "keywords": [
       "templates"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Templates",
     "objectID": "/support/tutorials/platform/templates/",
     "ordinal": 0,
@@ -2216,6 +2134,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-choose-a-sitebay-plan/",
+    "isBranch": false,
     "keywords": [
       "choose",
       "help",
@@ -2224,7 +2143,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Choose a Site Bay Plan",
     "objectID": "/support/tutorials/how-to-choose-a-sitebay-plan/",
     "ordinal": 0,
@@ -2256,6 +2175,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-pick-a-data-center/",
+    "isBranch": false,
     "keywords": [
       "data center",
       "datacenter",
@@ -2263,7 +2183,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Pick a Data Center",
     "objectID": "/support/tutorials/how-to-pick-a-data-center/",
     "ordinal": 0,
@@ -2295,6 +2215,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/outgoing-bandwidth/",
+    "isBranch": false,
     "keywords": [
       "network",
       "billing",
@@ -2304,7 +2225,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Outgoing Bandwidth",
     "objectID": "/support/tutorials/outgoing-bandwidth/",
     "ordinal": 0,
@@ -2336,6 +2257,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/migrate-a-wordpressdotcom-site-to-sitebay/",
+    "isBranch": false,
     "keywords": [
       "wordpress",
       "wordpress.com",
@@ -2344,7 +2266,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Migrate a WordPress.com Website to Site Bay",
     "objectID": "/support/tutorials/migrate-a-wordpressdotcom-site-to-sitebay/",
     "ordinal": 0,
@@ -2377,13 +2299,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/best-practices-when-migrating-to-sitebay/",
+    "isBranch": false,
     "keywords": [
       "migrate",
       "wordpress migration"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Best Practices when Migrating to Site Bay",
     "objectID": "/support/tutorials/best-practices-when-migrating-to-sitebay/",
     "ordinal": 0,
@@ -2415,6 +2338,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/migrate-a-lamp-website-to-sitebay/",
+    "isBranch": false,
     "keywords": [
       "lamp",
       "migrate",
@@ -2422,7 +2346,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Migrate a LAMP Website to Site Bay",
     "objectID": "/support/tutorials/migrate-a-lamp-website-to-sitebay/",
     "ordinal": 0,
@@ -2455,6 +2379,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/disaster-recovery-tutorial/",
+    "isBranch": false,
     "keywords": [
       "upgrade",
       "wordpress",
@@ -2462,7 +2387,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Fix WordPress site problems after updating",
     "objectID": "/support/tutorials/disaster-recovery-tutorial/",
     "ordinal": 0,
@@ -2493,13 +2418,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/development/php/",
+    "isBranch": true,
     "keywords": [
       "development",
       "php"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "PHP",
     "objectID": "/support/tutorials/development/php/",
     "ordinal": 0,
@@ -2528,10 +2454,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/search/",
+    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Search Site Bay support",
     "objectID": "/support/tutorials/search/",
     "ordinal": 0,
@@ -2559,6 +2486,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/advanced-wordpress-development-techniques/",
+    "isBranch": false,
     "keywords": [
       "docker",
       "container",
@@ -2569,7 +2497,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "WordPress Development on Remote Devices",
     "objectID": "/support/tutorials/advanced-wordpress-development-techniques/",
     "ordinal": 0,
@@ -2584,7 +2512,7 @@
       "phpstorm",
       "ide"
     ],
-    "thumbnailUrl": "/support/tutorials/advanced-wordpress-development-techniques/Site Bay_WebDev_hu3f942cecc26c94a9f8b6e42137deab14_92386_640x0_resize_q75_catmullrom.jpg",
+    "thumbnailUrl": "/support/tutorials/advanced-wordpress-development-techniques/Linode_WebDev_hu3f942cecc26c94a9f8b6e42137deab14_92386_640x0_resize_q75_catmullrom.jpg",
     "title": "WordPress Development on Remote Devices",
     "titleH1": "",
     "titleMeta": "",
@@ -2604,6 +2532,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/wordpress-development-on-remote-devices/",
+    "isBranch": false,
     "keywords": [
       "docker",
       "container",
@@ -2614,7 +2543,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "WordPress Development on Remote Devices",
     "objectID": "/support/tutorials/wordpress-development-on-remote-devices/",
     "ordinal": 0,
@@ -2629,7 +2558,7 @@
       "phpstorm",
       "ide"
     ],
-    "thumbnailUrl": "/support/tutorials/wordpress-development-on-remote-devices/Site Bay_WebDev_hu3f942cecc26c94a9f8b6e42137deab14_92386_640x0_resize_q75_catmullrom.jpg",
+    "thumbnailUrl": "/support/tutorials/wordpress-development-on-remote-devices/Linode_WebDev_hu3f942cecc26c94a9f8b6e42137deab14_92386_640x0_resize_q75_catmullrom.jpg",
     "title": "WordPress Development on Remote Devices",
     "titleH1": "",
     "titleMeta": "",
@@ -2649,13 +2578,14 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/quick-answers/sitebay-platform/",
+    "isBranch": true,
     "keywords": [
       "sitebay faq",
       "sitebay platform"
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Site Bay Platform",
     "objectID": "/support/tutorials/quick-answers/sitebay-platform/",
     "ordinal": 0,
@@ -2684,6 +2614,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/what-is-high-availability/",
+    "isBranch": false,
     "keywords": [
       "high availability",
       "hosting",
@@ -2691,7 +2622,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "What is High Availability?",
     "objectID": "/support/tutorials/what-is-high-availability/",
     "ordinal": 0,
@@ -2723,6 +2654,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/sitebay-beginners-tutorial/",
+    "isBranch": false,
     "keywords": [
       "sitebay beginners tutorial",
       "sitebay beginner",
@@ -2730,7 +2662,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Site Bay Beginner's Tutorial",
     "objectID": "/support/tutorials/sitebay-beginners-tutorial/",
     "ordinal": 0,
@@ -2742,7 +2674,7 @@
     "tags": [
       "sitebay platform"
     ],
-    "thumbnailUrl": "/support/tutorials/sitebay-beginners-tutorial/sitebay-beginners-tutorial_hud6ea5d1f4b0c655b2969bd8e7bdfbe93_814828_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
+    "thumbnailUrl": "/support/tutorials/sitebay-beginners-tutorial/sitebay-beginners-guide_hud6ea5d1f4b0c655b2969bd8e7bdfbe93_814828_640x0_resize_q75_bgffffff_catmullrom_3.jpg",
     "title": "Site Bay Beginner's Tutorial",
     "titleH1": "",
     "titleMeta": "",
@@ -2762,10 +2694,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/billing-and-support/",
+    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Billing and Support",
     "objectID": "/support/tutorials/platform/billing-and-support/",
     "ordinal": 0,
@@ -2794,10 +2727,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/templates/developers/",
+    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Developers",
     "objectID": "/support/features/templates/developers/",
     "ordinal": 50,
@@ -2826,10 +2760,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/templates/get-started-with-templates/",
+    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Get Started",
     "objectID": "/support/features/templates/get-started-with-templates/",
     "ordinal": 20,
@@ -2858,6 +2793,7 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/how-to-start-a-web-design-agency/",
+    "isBranch": false,
     "keywords": [
       "agency",
       "sitebay",
@@ -2866,7 +2802,7 @@
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "How to Start a Web Design Agency",
     "objectID": "/support/tutorials/how-to-start-a-web-design-agency/",
     "ordinal": 0,
@@ -2898,10 +2834,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/migrate-to-sitebay/",
+    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Migrate to Site Bay",
     "objectID": "/support/tutorials/platform/migrate-to-sitebay/",
     "ordinal": 0,
@@ -2930,10 +2867,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/monitoring/",
+    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Monitoring",
     "objectID": "/support/tutorials/platform/monitoring/",
     "ordinal": 0,
@@ -2962,10 +2900,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/platform/recording/",
+    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Recording",
     "objectID": "/support/tutorials/platform/recording/",
     "ordinal": 0,
@@ -2994,10 +2933,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/templates/resources/",
+    "isBranch": false,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Resources",
     "objectID": "/support/features/templates/resources/",
     "ordinal": 40,
@@ -3026,10 +2966,11 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/features/templates/",
+    "isBranch": true,
     "keywords": [],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Templates",
     "objectID": "/support/features/templates/",
     "ordinal": 0,
@@ -3057,12 +2998,13 @@
     "hiddentutorial": null,
     "hierarchy": [],
     "href": "/support/tutorials/security/basics/",
+    "isBranch": true,
     "keywords": [
       "wordpress security\""
     ],
     "keywordsAlgolia": [],
     "languages": null,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "WordPress Security Basics",
     "objectID": "/support/tutorials/security/basics/",
     "ordinal": 0,

@@ -3,7 +3,7 @@
   {
     "excerpt": "These tutorials offer simple, quick answers to common questions.",
     "firstPublishedTime": 1492128000,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Quick Answers",
     "objectID": "tutorials \u003e quick-answers",
     "ordinal": 0,
@@ -14,7 +14,7 @@
   {
     "excerpt": "These tutorials cover simple web page hosting and many popular web applications.",
     "firstPublishedTime": 1247702400,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Website Tutorials",
     "objectID": "tutorials \u003e websites",
     "ordinal": 0,
@@ -25,7 +25,7 @@
   {
     "excerpt": "Security is one of the most important concerns that server administrators face. These tutorials will help you harden your system\u0026rsquo;s security, addressing topics that include configuring a firewall, creating and administering SSL certificates for transport layer security, offering secured SFTP user access to your Site Bay, and blocking malicious probes, among others.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "WordPress Security",
     "objectID": "tutorials \u003e security",
     "ordinal": 0,
@@ -36,7 +36,7 @@
   {
     "excerpt": "These tutorials show you how to use tools like git, vscode, and Site Bay\u0026rsquo;s Git Sync",
     "firstPublishedTime": 1618358400,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "WordPress Development",
     "objectID": "tutorials \u003e development",
     "ordinal": 0,
@@ -47,7 +47,7 @@
   {
     "excerpt": "Learn about everything Site Bay!",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Site Bay Platform",
     "objectID": "tutorials \u003e platform",
     "ordinal": 0,
@@ -58,7 +58,7 @@
   {
     "excerpt": "If you run into any problems with services on My Site Bay, we will solve them.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Troubleshooting",
     "objectID": "tutorials \u003e troubleshooting",
     "ordinal": 0,
@@ -69,7 +69,7 @@
   {
     "excerpt": "sitebay Point-in-Time Machine Service is fully managed, easy, and configurable.",
     "firstPublishedTime": 1617321600,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Point-in-Time Machine",
     "objectID": "features \u003e time-machine",
     "ordinal": 10,
@@ -80,7 +80,7 @@
   {
     "excerpt": "Learn how to get up and running with Site Bay\u0026rsquo;s Point-in-time Machine using the tutorials included on this page.",
     "firstPublishedTime": 1617321600,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Tutorials",
     "objectID": "features \u003e time-machine \u003e tutorials",
     "ordinal": 30,
@@ -91,7 +91,7 @@
   {
     "excerpt": "Use developer tools like the sitebay API or CLI to manage your DNS records.",
     "firstPublishedTime": 1614643200,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Developers",
     "objectID": "features \u003e dns-manager \u003e developers",
     "ordinal": 50,
@@ -102,7 +102,7 @@
   {
     "excerpt": "Site Bay offers templates that make it easy to create a beautiful site in a flash.",
     "firstPublishedTime": 1614643200,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Dns Manager",
     "objectID": "features \u003e dns-manager",
     "ordinal": 10,
@@ -113,7 +113,7 @@
   {
     "excerpt": "Get started with the sitebay DNS Manager. Learn to add a domain and add DNS records.",
     "firstPublishedTime": 1614643200,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Get Started With DNS Manager",
     "objectID": "features \u003e dns-manager \u003e get-started-with-dns-manager",
     "ordinal": 20,
@@ -124,7 +124,7 @@
   {
     "excerpt": "Resources and other information related to the sitebay DNS manager including blog posts and community posts.",
     "firstPublishedTime": 1614643200,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Resources",
     "objectID": "features \u003e dns-manager \u003e resources",
     "ordinal": 40,
@@ -135,7 +135,7 @@
   {
     "excerpt": "Learn the basics of adding and managing your WordPress site\u0026rsquo;s Domains and DNS records using your DNS manager.",
     "firstPublishedTime": 1614643200,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Tutorials",
     "objectID": "features \u003e dns-manager \u003e tutorials",
     "ordinal": 30,
@@ -146,7 +146,7 @@
   {
     "excerpt": "The Site Bay API is a programmatic interface that allows white label design agencies to set up their own shops hosted by us. You can interact with many of the features of \u003ca href=\"https://my.sitebay.org/\"  target=\"_blank\" \u003eMy Site Bay\u003c/a\u003e.\u003cbr/\u003eTo learn more, please visit the Site Bay API reference: \u003ca href=\"https://www.sitebay.org/support/api/\"  target=\"_blank\" \u003ehttps://www.sitebay.org/support/api/\u003c/a\u003e",
     "firstPublishedTime": 1611705600,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Site Bay API",
     "objectID": "tutorials \u003e platform \u003e api",
     "ordinal": 0,
@@ -157,7 +157,7 @@
   {
     "excerpt": "These tutorials describe important first steps for any new Site Bay user, and they answer common questions you might have when getting started.",
     "firstPublishedTime": 1603152000,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Get Started",
     "objectID": "tutorials \u003e platform \u003e get-started",
     "ordinal": 0,
@@ -168,7 +168,7 @@
   {
     "excerpt": "Learn about the fundamentals of a modern website.",
     "firstPublishedTime": 1598918400,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Website Fundamentals",
     "objectID": "tutorials \u003e websites \u003e fundamentals",
     "ordinal": 0,
@@ -179,7 +179,7 @@
   {
     "excerpt": "Monitoring your WordPress site is important for your site\u0026rsquo;s security. These tutorials will show you how to install popular plugins as a solution for WordPress security.",
     "firstPublishedTime": 1598832000,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Monitoring",
     "objectID": "tutorials \u003e security \u003e monitoring",
     "ordinal": 0,
@@ -190,7 +190,7 @@
   {
     "excerpt": "This section shows how to plan for and recover from potential system compromises.",
     "firstPublishedTime": 1598832000,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "System Recovery",
     "objectID": "tutorials \u003e security \u003e recovery",
     "ordinal": 0,
@@ -201,18 +201,18 @@
   {
     "excerpt": "This section covers different software development practices that help make writing your applications easier and more efficient.",
     "firstPublishedTime": 1598832000,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Tips and Tricks",
     "objectID": "tutorials \u003e development \u003e tips-and-tricks",
     "ordinal": 0,
     "section": "tutorials",
-    "thumbnail": "/support/tutorials/advanced-wordpress-development-techniques/Site Bay_WebDev_hu3f942cecc26c94a9f8b6e42137deab14_92386_640x400_fill_q75_catmullrom_smart1.jpg",
+    "thumbnail": "/support/tutorials/advanced-wordpress-development-techniques/Linode_WebDev_hu3f942cecc26c94a9f8b6e42137deab14_92386_640x400_fill_q75_catmullrom_smart1.jpg",
     "title": "Tips and Tricks"
   },
   {
     "excerpt": "WordPress is a popular CMS platform",
     "firstPublishedTime": 1564358400,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "WordPress",
     "objectID": "tutorials \u003e wordpress",
     "ordinal": 0,
@@ -223,7 +223,7 @@
   {
     "excerpt": "Use Site Bay\u0026rsquo;s Bi-directional Git Sync to develop locally.",
     "firstPublishedTime": 1553558400,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Git Sync",
     "objectID": "tutorials \u003e platform \u003e git-sync",
     "ordinal": 0,
@@ -234,7 +234,7 @@
   {
     "excerpt": "Use Site Bay\u0026rsquo;s Shopify store connector to link your Shopify store to a directory on your WordPress site.",
     "firstPublishedTime": 1553558400,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Shopify Connect",
     "objectID": "tutorials \u003e platform \u003e shopify",
     "ordinal": 0,
@@ -245,7 +245,7 @@
   {
     "excerpt": "Use Templates Apps to easily create a site with pre-made themes and pages.",
     "firstPublishedTime": 1553558400,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Templates",
     "objectID": "tutorials \u003e platform \u003e templates",
     "ordinal": 0,
@@ -256,7 +256,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": 1517184000,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "PHP",
     "objectID": "tutorials \u003e development \u003e php",
     "ordinal": 0,
@@ -267,7 +267,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": 1494201600,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Site Bay Platform",
     "objectID": "tutorials \u003e quick-answers \u003e sitebay-platform",
     "ordinal": 0,
@@ -278,7 +278,7 @@
   {
     "excerpt": "WordPress is constantly evolving. Bugs are fixed, new features are added, and packages are updated.",
     "firstPublishedTime": 1338508800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Upgrading",
     "objectID": "tutorials \u003e security \u003e upgrading",
     "ordinal": 0,
@@ -289,7 +289,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "All Release Notes",
     "objectID": "release-notes",
     "ordinal": 0,
@@ -300,7 +300,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "API Documentation",
     "objectID": "api",
     "ordinal": 0,
@@ -311,7 +311,7 @@
   {
     "excerpt": "View tutorials based on the reader\u0026rsquo;s experience level.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Audiences",
     "objectID": "tutorials \u003e audiences",
     "ordinal": 0,
@@ -322,7 +322,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Authors",
     "objectID": "authors",
     "ordinal": 0,
@@ -333,7 +333,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Beginner",
     "objectID": "tutorials \u003e audiences \u003e beginner",
     "ordinal": 0,
@@ -344,7 +344,7 @@
   {
     "excerpt": "All about billing and support options on Site Bay.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Billing and Support",
     "objectID": "tutorials \u003e platform \u003e billing-and-support",
     "ordinal": 0,
@@ -355,7 +355,7 @@
   {
     "excerpt": "Get started using the Cloud Manager, CLI, and API to deploy Site Bay services and manage your account.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "features",
     "objectID": "features",
     "ordinal": 0,
@@ -366,7 +366,7 @@
   {
     "excerpt": "Here\u0026rsquo;s how to use our IP-based firewall to secure your WordPress site on My Site Bay:",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Firewalls",
     "objectID": "tutorials \u003e security \u003e firewalls",
     "ordinal": 0,
@@ -377,7 +377,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Foundational",
     "objectID": "tutorials \u003e audiences \u003e foundational",
     "ordinal": 0,
@@ -388,7 +388,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Intermediate",
     "objectID": "tutorials \u003e audiences \u003e intermediate",
     "ordinal": 0,
@@ -399,7 +399,7 @@
   {
     "excerpt": "Select a programming language to view all related tutorials.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Languages",
     "objectID": "tutorials \u003e languages",
     "ordinal": 0,
@@ -410,7 +410,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Migrate to Site Bay",
     "objectID": "tutorials \u003e platform \u003e migrate-to-sitebay",
     "ordinal": 0,
@@ -421,7 +421,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Monitoring",
     "objectID": "tutorials \u003e platform \u003e monitoring",
     "ordinal": 0,
@@ -432,7 +432,7 @@
   {
     "excerpt": "Pavel Petrov is Id laborum magna proident voluptate sint anim. Labore qui enim aute Lorem non fugiat reprehenderit dolore sit.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Pavel Petrov",
     "objectID": "authors \u003e pavel-petrov",
     "ordinal": 0,
@@ -443,7 +443,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "PHP",
     "objectID": "tutorials \u003e languages \u003e php",
     "ordinal": 0,
@@ -454,7 +454,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Recording",
     "objectID": "tutorials \u003e platform \u003e recording",
     "ordinal": 0,
@@ -465,7 +465,7 @@
   {
     "excerpt": "allow you to build, release, and scale faster with virtual machines and tools for every workload.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Templates",
     "objectID": "features \u003e templates",
     "ordinal": 0,
@@ -476,7 +476,7 @@
   {
     "excerpt": "Learn how to get your pre-made site running quick.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Tutorials",
     "objectID": "features \u003e templates \u003e tutorials",
     "ordinal": 30,
@@ -485,20 +485,20 @@
     "title": "Tutorials"
   },
   {
-    "excerpt": "Explore our extensive library of Linux and Cloud Computing tutorials and tutorials with new content published regularly.",
+    "excerpt": "Explore our extensive library of Site Bay WordPress guides and tutorials with new content published regularly.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Tutorials",
     "objectID": "tutorials",
     "ordinal": 0,
     "section": "tutorials",
     "thumbnail": "/support/tutorials/getting-started/getting-started_hu7073266e0ea4f459a4166f783458efb0_424270_640x400_fill_catmullrom_smart1_3.png",
-    "title": "Tutorials \u0026 Tutorials"
+    "title": "Guides \u0026 Tutorials"
   },
   {
     "excerpt": "The Site Bay documentation library\u0026rsquo;s profile page and submission listing for Wayne Rash",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Wayne Rash",
     "objectID": "authors \u003e wayne-rash",
     "ordinal": 0,
@@ -509,7 +509,7 @@
   {
     "excerpt": "",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "Websites",
     "objectID": "tutorials \u003e quick-answers \u003e websites",
     "ordinal": 0,
@@ -520,7 +520,7 @@
   {
     "excerpt": "This section gives tips and tricks on WordPress security best practices that all site admins should use.",
     "firstPublishedTime": -62135596800,
-    "lastUpdatedTime": 1692353852,
+    "lastUpdatedTime": 1706696890,
     "linkTitle": "WordPress Security Basics",
     "objectID": "tutorials \u003e security \u003e basics",
     "ordinal": 0,
